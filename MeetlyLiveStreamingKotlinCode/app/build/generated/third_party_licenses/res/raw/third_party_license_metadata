@@ -1,0 +1,210 @@
+0:46 androidx.annotation:annotation
+48:46 androidx.databinding:viewbinding
+96:46 androidx.localbroadcastmanager:localbroadcastmanager
+144:46 com.google.firebase:firebase-installations
+192:47 com.google.android.gms:play-services-measurement-impl
+241:10694 AndroidX lifecycle common library
+10937:10694 AndroidX lifecycle livedatacore library
+21633:10694 AndroidX lifecycle runtime library
+32329:1096 Animal Sniffer
+33427:1846 Checker Framework Annotations
+35275:11357 Error Prone
+46634:11342 FlatBuffers
+57978:11358 Google Auto
+69338:11358 Guava JDK5
+80698:11362 Guava JDK7
+92062:11358 J2ObjC
+103422:11358 JSR 250
+114782:1602 JSR 305
+116386:11365 JSR 330
+127753:11307 JsInterop Annotations
+139062:11358 SafeParcelable library
+150422:47 com.google.firebase:firebase-dynamic-links
+150471:10695 AndroidX document file library.
+161168:10695 AndroidX print library.
+171865:10695 AndroidX versioned parcelable library.
+182562:11353 Firebase Common
+193917:11358 safeparcel
+205277:54 com.facebook.fresco:imagepipeline
+205333:46 androidx.lifecycle:lifecycle-livedata-core
+205381:46 androidx.room:room-ktx
+205429:46 androidx.activity:activity
+205477:47 com.google.android.gms:play-services-ads-identifier
+205526:11342 flatbuffers
+216870:11365 absl
+228237:1732 Protobuf Nano
+229971:46 androidx.arch.core:core-common
+230019:47 com.google.android.gms:play-services-measurement-base
+230068:0 com.facebook.react:react-native-keep-awake
+230070:46 androidx.media:media
+230118:46 androidx.savedstate:savedstate
+230166:46 com.jakewharton.timber:timber
+230214:0 com.facebook.react:react-native-sound
+230216:46 androidx.lifecycle:lifecycle-livedata-core-ktx
+230264:46 androidx.documentfile:documentfile
+230312:46 com.google.firebase:firebase-installations-interop
+230360:47 com.google.android.gms:play-services-basement
+230409:46 androidx.vectordrawable:vectordrawable-animated
+230457:46 com.google.android.material:material
+230505:47 com.google.firebase:firebase-analytics
+230554:47 com.google.android.gms:play-services-ads-base
+230603:46 com.google.firebase:firebase-dynamic-links-ktx
+230651:46 androidx.versionedparcelable:versionedparcelable
+230699:46 com.mikepenz:fastadapter-extensions-diff
+230747:47 com.google.firebase:firebase-auth
+230796:10695 AndroidX activity library
+241493:10695 AndroidX asynchronous layout inflater library
+252190:10695 AndroidX concurrent futures library
+262887:10695 AndroidX coordinator layout library
+273584:10695 AndroidX cursor adapter library
+284281:10695 AndroidX document file library
+294978:10695 AndroidX drawer layout library
+305675:10693 AndroidX interpolator library
+316370:10695 AndroidX legacy coreui library
+327067:10693 AndroidX local broadcast manager library
+337762:10695 AndroidX print library
+348459:10695 AndroidX sliding pane layout library
+359156:10695 AndroidX swipe refresh layout library
+369853:10695 AndroidX versioned parcelable library
+380550:10695 AndroidX view pager library
+391247:11353 Firebase for Android Common
+402602:10695 savedstate
+413299:47 com.google.android.gms:play-services-stats
+413348:21000 ICU4C
+434350:680 STL
+435032:731 UTF
+435765:46 com.mikepenz:fastadapter
+435813:47 com.google.firebase:firebase-auth-interop
+435862:10695 Android Activity Support Library
+446559:10695 AndroidX legacy core UI libraries
+457256:46 androidx.lifecycle:lifecycle-service
+457304:46 androidx.coordinatorlayout:coordinatorlayout
+457352:0 com.facebook.react:react-native-community-async-storage
+457354:46 com.mikepenz:fastadapter-extensions-swipe
+457402:46 androidx.core:core
+457450:46 androidx.drawerlayout:drawerlayout
+457498:54 com.facebook.fresco:fbcore
+457554:46 androidx.vectordrawable:vectordrawable
+457602:46 androidx.loader:loader
+457650:46 androidx.appcompat:appcompat-resources
+457698:47 com.google.android.gms:play-services-auth
+457747:46 androidx.cursoradapter:cursoradapter
+457795:46 androidx.lifecycle:lifecycle-common-java8
+457843:42 com.github.AppIntro:AppIntro
+457887:46 androidx.appcompat:appcompat
+457935:54 com.facebook.fresco:fresco
+457991:46 androidx.lifecycle:lifecycle-extensions
+458039:46 androidx.legacy:legacy-support-core-utils
+458087:46 com.squareup.duktape:duktape-android
+458135:47 com.google.firebase:firebase-iid-interop
+458184:46 androidx.room:room-common
+458232:50 com.amplitude:android-sdk
+458284:46 com.mikepenz:fastadapter-extensions-binding
+458332:53 com.facebook.infer.annotation:infer-annotation
+458387:46 androidx.collection:collection
+458435:46 androidx.lifecycle:lifecycle-livedata
+458483:54 com.facebook.fresco:nativeimagefilters
+458539:46 javax.inject:javax.inject
+458587:46 androidx.cardview:cardview
+458635:46 com.chibatching.kotpref:kotpref
+458683:46 androidx.lifecycle:lifecycle-runtime
+458731:0 com.facebook.react:react-native-community_netinfo
+458733:0 com.facebook.react:react-native-default-preference
+458735:0 com.facebook.react:react-native-google-signin
+458737:46 com.google.code.findbugs:jsr305
+458785:47 com.google.android.gms:play-services-measurement-sdk-api
+458834:0 com.facebook.react:react-native-svg
+458836:46 androidx.print:print
+458884:60 com.facebook.react:react-native
+458946:46 androidx.arch.core:core-runtime
+458994:46 androidx.interpolator:interpolator
+459042:46 androidx.sqlite:sqlite
+459090:46 androidx.slidingpanelayout:slidingpanelayout
+459138:46 androidx.lifecycle:lifecycle-viewmodel-ktx
+459186:46 androidx.legacy:legacy-support-v4
+459234:47 com.google.android.gms:play-services-ads
+459283:10695 AndroidX browser library
+469980:11341 ArWebView
+481323:11358 Dagger
+492683:1732 Nano Protocol Buffers
+494417:16780 Rhino
+511199:11358 Tink
+522559:11358 Volley
+533919:10141 customtabsclient
+544062:12834 mp4parser
+556898:47 com.google.android.gms:play-services-oss-licenses
+556947:46 androidx.lifecycle:lifecycle-runtime-ktx
+556995:46 com.mikepenz:fastadapter-extensions-expandable
+557043:47 com.google.android.gms:play-services-measurement
+557092:54 com.facebook.fresco:nativeimagetranscoder
+557148:47 com.google.android.gms:play-services-measurement-api
+557197:11357 Firebase
+568556:0 io.coil-kt:coil
+568558:47 com.google.android.gms:play-services-ads-lite
+568607:46 androidx.viewpager2:viewpager2
+568655:0 com.facebook.react:react-native-webview
+568657:47 com.google.android.gms:play-services-gass
+568706:46 androidx.transition:transition
+568754:47 com.google.android.gms:play-services-auth-api-phone
+568803:2500 zlib
+571305:1558 RE2
+572865:3182 PCRE
+576049:1481 darts_clone
+577532:47 org.jetbrains.kotlinx:kotlinx-coroutines-play-services
+577581:56 com.facebook.soloader:soloader
+577639:46 androidx.lifecycle:lifecycle-viewmodel
+577687:47 com.firebaseui:firebase-ui-auth
+577736:46 androidx.lifecycle:lifecycle-viewmodel-savedstate
+577784:46 androidx.lifecycle:lifecycle-common
+577832:54 com.facebook.fresco:drawee
+577888:46 org.jetbrains.kotlin:kotlin-stdlib
+577936:46 androidx.fragment:fragment
+577984:46 androidx.lifecycle:lifecycle-process
+578032:46 androidx.browser:browser
+578080:47 com.google.android.gms:play-services-auth-base
+578129:46 androidx.room:room-runtime
+578177:46 androidx.viewpager:viewpager
+578225:46 com.mikepenz:fastadapter-extensions-drag
+578273:47 com.google.android.gms:play-services-base
+578322:34 com.dropbox.core:dropbox-core-sdk
+578358:46 de.hdodenhof:circleimageview
+578406:46 androidx.lifecycle:lifecycle-livedata-ktx
+578454:46 androidx.constraintlayout:constraintlayout
+578502:54 com.facebook.fresco:imagepipeline-okhttp3
+578558:0 com.facebook.react:react-native-calendar-events
+578560:47 com.google.android.gms:play-services-tasks
+578609:0 com.facebook.react:react-native-background-timer
+578611:46 com.google.firebase:firebase-components
+578659:46 androidx.customview:customview
+578707:46 androidx.recyclerview:recyclerview
+578755:0 com.facebook.react:react-native-immersive
+578757:47 org.jetbrains.kotlinx:kotlinx-coroutines-android
+578806:46 com.google.firebase:firebase-common
+578854:46 androidx.swiperefreshlayout:swiperefreshlayout
+578902:46 org.jetbrains.kotlin:kotlin-stdlib-jdk7
+578950:46 com.mikepenz:fastadapter-extensions-utils
+578998:46 androidx.sqlite:sqlite-framework
+579046:46 androidx.core:core-ktx
+579094:46 com.squareup.okio:okio
+579142:46 org.jetbrains.kotlin:kotlin-android-extensions-runtime
+579190:47 org.jetbrains.kotlinx:kotlinx-coroutines-core
+579239:46 com.google.firebase:firebase-common-ktx
+579287:46 androidx.constraintlayout:constraintlayout-solver
+579335:46 org.jetbrains.kotlin:kotlin-stdlib-common
+579383:0 com.facebook.react:react-native-linear-gradient
+579385:45 org.jetbrains:annotations
+579432:46 androidx.legacy:legacy-support-core-ui
+579480:54 com.facebook.fresco:imagepipeline-base
+579536:46 androidx.asynclayoutinflater:asynclayoutinflater
+579584:47 com.github.marlonlom:timeago
+579633:0 io.coil-kt:coil-base
+579635:47 com.google.android.gms:play-services-measurement-sdk
+579684:47 com.google.firebase:firebase-iid
+579733:47 com.google.firebase:firebase-measurement-connector
+579782:46 com.squareup.okio:okio-metadata
+579830:67 com.parse.bolts:bolts-tasks
+579899:46 org.jetbrains.kotlin:kotlin-stdlib-jdk8
+579947:46 androidx.collection:collection-ktx
+579995:46 androidx.concurrent:concurrent-futures
+580043:46 androidx.exifinterface:exifinterface
+580091:46 me.zhanghai.android.materialprogressbar:library

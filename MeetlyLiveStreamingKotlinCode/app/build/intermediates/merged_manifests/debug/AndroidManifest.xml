@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aculix.meetly.app"
+    android:versionCode="6"
+    android:versionName="1.13" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="aculix.meetly.app.Meetly"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="aculix.meetly.app.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="aculix.meetly.app.activity.RegistrationActivity" >
+        </activity>
+        <activity
+            android:name="aculix.meetly.app.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash" >
+        </activity>
+        <activity
+            android:name="aculix.meetly.app.activity.AppIntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="aculix.meetly.app.activity.AuthenticationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="aculix.meetly.app.activity.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/app_deep_link_domain"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aculix.meetly.app.activity.MeetingHistoryActivity"
+            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="aculix.meetly.app.activity.FaqsActivity"
+            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
+            android:screenOrientation="portrait" /> <!-- Admob -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.ktx.FirebaseDynamicLinksRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+
+        <activity
+            android:name="com.firebase.ui.auth.KickoffActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/FirebaseUI.Transparent" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/FirebaseUI.Transparent" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/FirebaseUI.Transparent" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+            android:exported="false"
+            android:label="@string/fui_title_recover_password_activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+            android:exported="false"
+            android:label="@string/fui_sign_in_default"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+            android:exported="false"
+            android:label="@string/fui_sign_in_with_phone_number"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+            android:exported="false"
+            android:label="@string/fui_title_welcome_back_idp_prompt"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+            android:exported="false"
+            android:label="@string/fui_title_welcome_back_password_prompt"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+            android:exported="false"
+            android:label="@string/fui_title_welcome_back_password_prompt"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/FirebaseUI.Transparent"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+            android:exported="false"
+            android:label="@string/fui_sign_in_default"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+            android:exported="false"
+            android:label="@string/fui_default_toolbar_title" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/facebook_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+            android:authorities="aculix.meetly.app.authuiinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+
+        <activity
+            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+        <service
+            android:name="org.jitsi.meet.sdk.ConnectionService"
+            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+            <intent-filter>
+                <action android:name="android.telecom.ConnectionService" />
+            </intent-filter>
+        </service>
+        <service android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService" />
+
+        <activity
+            android:name="com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+            android:label="@string/oss_license_title" />
+        <activity android:name="com.google.android.gms.oss.licenses.OssLicensesActivity" />
+        <activity android:name="saschpe.android.customtabs.WebViewActivity" />
+
+        <meta-data
+            android:name="android.webkit.WebView.MetricsOptOut"
+            android:value="true" />
+
+        <provider
+            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+            android:authorities="aculix.meetly.app.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+        <provider
+            android:name="coil.util.CoilContentProvider"
+            android:authorities="aculix.meetly.app.coil"
+            android:exported="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="aculix.meetly.app.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:authorities="aculix.meetly.app.mobileadsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="aculix.meetly.app.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

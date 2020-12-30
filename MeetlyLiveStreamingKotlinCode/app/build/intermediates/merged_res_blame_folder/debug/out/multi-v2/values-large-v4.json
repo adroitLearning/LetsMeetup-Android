@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\3af21c826e2d56b01ce398e41f9aff3a\\appcompat-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,578,682",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,677,793"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\e5077e7d913a9138ad2ecbbbbecbe82b\\jetified-bottomsheets-3.3.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "532",
+                        "endColumns": "45",
+                        "endOffsets": "573"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\df896cfd98cba10f940283268a5363f4\\material-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "12,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "798,920",
+                        "endColumns": "121,133",
+                        "endOffsets": "915,1049"
+                    }
+                }
+            ]
+        }
+    ]
+}
