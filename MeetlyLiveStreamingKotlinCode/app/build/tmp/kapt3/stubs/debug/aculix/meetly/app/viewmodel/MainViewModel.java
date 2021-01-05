@@ -6,11 +6,11 @@ import java.lang.System;
 public final class MainViewModel extends androidx.lifecycle.ViewModel {
     private final aculix.meetly.app.repository.MainRepository repository = null;
     
-    public final void addMeetingToDb(@org.jetbrains.annotations.NotNull
+    public final void addMeetingToDb(@org.jetbrains.annotations.NotNull()
     aculix.meetly.app.model.Meeting meeting) {
     }
     
-    public MainViewModel(@org.jetbrains.annotations.NotNull
+    public MainViewModel(@org.jetbrains.annotations.NotNull()
     aculix.meetly.app.repository.MainRepository repository) {
         super();
     }

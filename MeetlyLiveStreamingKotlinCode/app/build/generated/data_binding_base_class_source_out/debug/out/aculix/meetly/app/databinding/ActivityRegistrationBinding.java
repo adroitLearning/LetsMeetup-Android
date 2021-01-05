@@ -7,12 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,28 +20,13 @@ import java.lang.String;
 
 public final class ActivityRegistrationBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
-
-  @NonNull
-  public final Button btnDob;
+  private final LinearLayout rootView;
 
   @NonNull
   public final Button btnSubmit;
 
   @NonNull
-  public final Button btnVerifyemail;
-
-  @NonNull
-  public final Button btnVerifymobile;
-
-  @NonNull
   public final EditText edtConfirmPwd;
-
-  @NonNull
-  public final EditText edtEmailOtp;
-
-  @NonNull
-  public final EditText edtMobilenoOtp;
 
   @NonNull
   public final EditText edtPwd;
@@ -56,6 +41,9 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   public final EditText etUserName;
 
   @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
@@ -67,24 +55,19 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   @NonNull
   public final TextView txtView;
 
-  private ActivityRegistrationBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnDob,
-      @NonNull Button btnSubmit, @NonNull Button btnVerifyemail, @NonNull Button btnVerifymobile,
-      @NonNull EditText edtConfirmPwd, @NonNull EditText edtEmailOtp,
-      @NonNull EditText edtMobilenoOtp, @NonNull EditText edtPwd, @NonNull EditText etEmail,
-      @NonNull EditText etMobile, @NonNull EditText etUserName, @NonNull LinearLayout linearLayout,
-      @NonNull LinearLayout llMainLayout, @NonNull Spinner spinner, @NonNull TextView txtView) {
+  private ActivityRegistrationBinding(@NonNull LinearLayout rootView, @NonNull Button btnSubmit,
+      @NonNull EditText edtConfirmPwd, @NonNull EditText edtPwd, @NonNull EditText etEmail,
+      @NonNull EditText etMobile, @NonNull EditText etUserName, @NonNull ImageView imageView2,
+      @NonNull LinearLayout linearLayout, @NonNull LinearLayout llMainLayout,
+      @NonNull Spinner spinner, @NonNull TextView txtView) {
     this.rootView = rootView;
-    this.btnDob = btnDob;
     this.btnSubmit = btnSubmit;
-    this.btnVerifyemail = btnVerifyemail;
-    this.btnVerifymobile = btnVerifymobile;
     this.edtConfirmPwd = edtConfirmPwd;
-    this.edtEmailOtp = edtEmailOtp;
-    this.edtMobilenoOtp = edtMobilenoOtp;
     this.edtPwd = edtPwd;
     this.etEmail = etEmail;
     this.etMobile = etMobile;
     this.etUserName = etUserName;
+    this.imageView2 = imageView2;
     this.linearLayout = linearLayout;
     this.llMainLayout = llMainLayout;
     this.spinner = spinner;
@@ -93,7 +76,7 @@ public final class ActivityRegistrationBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -118,45 +101,15 @@ public final class ActivityRegistrationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_dob;
-      Button btnDob = rootView.findViewById(id);
-      if (btnDob == null) {
-        break missingId;
-      }
-
       id = R.id.btn_submit;
       Button btnSubmit = rootView.findViewById(id);
       if (btnSubmit == null) {
         break missingId;
       }
 
-      id = R.id.btn_verifyemail;
-      Button btnVerifyemail = rootView.findViewById(id);
-      if (btnVerifyemail == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_verifymobile;
-      Button btnVerifymobile = rootView.findViewById(id);
-      if (btnVerifymobile == null) {
-        break missingId;
-      }
-
       id = R.id.edt_confirm_pwd;
       EditText edtConfirmPwd = rootView.findViewById(id);
       if (edtConfirmPwd == null) {
-        break missingId;
-      }
-
-      id = R.id.edt_email_otp;
-      EditText edtEmailOtp = rootView.findViewById(id);
-      if (edtEmailOtp == null) {
-        break missingId;
-      }
-
-      id = R.id.edt_mobileno_otp;
-      EditText edtMobilenoOtp = rootView.findViewById(id);
-      if (edtMobilenoOtp == null) {
         break missingId;
       }
 
@@ -184,6 +137,12 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView2;
+      ImageView imageView2 = rootView.findViewById(id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
       id = R.id.linear_layout;
       LinearLayout linearLayout = rootView.findViewById(id);
       if (linearLayout == null) {
@@ -208,9 +167,9 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegistrationBinding((ConstraintLayout) rootView, btnDob, btnSubmit,
-          btnVerifyemail, btnVerifymobile, edtConfirmPwd, edtEmailOtp, edtMobilenoOtp, edtPwd,
-          etEmail, etMobile, etUserName, linearLayout, llMainLayout, spinner, txtView);
+      return new ActivityRegistrationBinding((LinearLayout) rootView, btnSubmit, edtConfirmPwd,
+          edtPwd, etEmail, etMobile, etUserName, imageView2, linearLayout, llMainLayout, spinner,
+          txtView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

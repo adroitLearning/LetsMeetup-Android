@@ -7,14 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.Barrier;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
-import com.google.android.material.button.MaterialButton;
 import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.google.android.material.textview.MaterialTextView;
-import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,19 +21,10 @@ public final class DialogProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Barrier barrierUserDetails;
-
-  @NonNull
-  public final MaterialButton btnUserAuthenticationStatus;
-
-  @NonNull
   public final View dividerDarkMode;
 
   @NonNull
   public final View dividerOpenSourceLicenses;
-
-  @NonNull
-  public final View dividerUserDetails;
 
   @NonNull
   public final Guideline glEnd;
@@ -45,25 +33,13 @@ public final class DialogProfileBinding implements ViewBinding {
   public final Guideline glStart;
 
   @NonNull
-  public final CircleImageView ivUserProfileDialog;
-
-  @NonNull
   public final SwitchMaterial switchDarkMode;
 
   @NonNull
-  public final MaterialTextView tvDotSeparator;
+  public final MaterialTextView tvProfile;
 
   @NonNull
-  public final MaterialTextView tvEmail;
-
-  @NonNull
-  public final MaterialTextView tvFaqs;
-
-  @NonNull
-  public final MaterialTextView tvOpenSourceLicenses;
-
-  @NonNull
-  public final MaterialTextView tvPrivacyPolicy;
+  public final MaterialTextView tvPushNotification;
 
   @NonNull
   public final MaterialTextView tvRateApp;
@@ -72,49 +48,24 @@ public final class DialogProfileBinding implements ViewBinding {
   public final MaterialTextView tvSendFeedback;
 
   @NonNull
-  public final MaterialTextView tvShareApp;
+  public final MaterialTextView tvSettings;
 
-  @NonNull
-  public final MaterialTextView tvTermsOfService;
-
-  @NonNull
-  public final MaterialTextView tvUserName;
-
-  @NonNull
-  public final MaterialTextView tvUserNotAuthenticated;
-
-  private DialogProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Barrier barrierUserDetails, @NonNull MaterialButton btnUserAuthenticationStatus,
-      @NonNull View dividerDarkMode, @NonNull View dividerOpenSourceLicenses,
-      @NonNull View dividerUserDetails, @NonNull Guideline glEnd, @NonNull Guideline glStart,
-      @NonNull CircleImageView ivUserProfileDialog, @NonNull SwitchMaterial switchDarkMode,
-      @NonNull MaterialTextView tvDotSeparator, @NonNull MaterialTextView tvEmail,
-      @NonNull MaterialTextView tvFaqs, @NonNull MaterialTextView tvOpenSourceLicenses,
-      @NonNull MaterialTextView tvPrivacyPolicy, @NonNull MaterialTextView tvRateApp,
-      @NonNull MaterialTextView tvSendFeedback, @NonNull MaterialTextView tvShareApp,
-      @NonNull MaterialTextView tvTermsOfService, @NonNull MaterialTextView tvUserName,
-      @NonNull MaterialTextView tvUserNotAuthenticated) {
+  private DialogProfileBinding(@NonNull ConstraintLayout rootView, @NonNull View dividerDarkMode,
+      @NonNull View dividerOpenSourceLicenses, @NonNull Guideline glEnd, @NonNull Guideline glStart,
+      @NonNull SwitchMaterial switchDarkMode, @NonNull MaterialTextView tvProfile,
+      @NonNull MaterialTextView tvPushNotification, @NonNull MaterialTextView tvRateApp,
+      @NonNull MaterialTextView tvSendFeedback, @NonNull MaterialTextView tvSettings) {
     this.rootView = rootView;
-    this.barrierUserDetails = barrierUserDetails;
-    this.btnUserAuthenticationStatus = btnUserAuthenticationStatus;
     this.dividerDarkMode = dividerDarkMode;
     this.dividerOpenSourceLicenses = dividerOpenSourceLicenses;
-    this.dividerUserDetails = dividerUserDetails;
     this.glEnd = glEnd;
     this.glStart = glStart;
-    this.ivUserProfileDialog = ivUserProfileDialog;
     this.switchDarkMode = switchDarkMode;
-    this.tvDotSeparator = tvDotSeparator;
-    this.tvEmail = tvEmail;
-    this.tvFaqs = tvFaqs;
-    this.tvOpenSourceLicenses = tvOpenSourceLicenses;
-    this.tvPrivacyPolicy = tvPrivacyPolicy;
+    this.tvProfile = tvProfile;
+    this.tvPushNotification = tvPushNotification;
     this.tvRateApp = tvRateApp;
     this.tvSendFeedback = tvSendFeedback;
-    this.tvShareApp = tvShareApp;
-    this.tvTermsOfService = tvTermsOfService;
-    this.tvUserName = tvUserName;
-    this.tvUserNotAuthenticated = tvUserNotAuthenticated;
+    this.tvSettings = tvSettings;
   }
 
   @Override
@@ -144,18 +95,6 @@ public final class DialogProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.barrierUserDetails;
-      Barrier barrierUserDetails = rootView.findViewById(id);
-      if (barrierUserDetails == null) {
-        break missingId;
-      }
-
-      id = R.id.btnUserAuthenticationStatus;
-      MaterialButton btnUserAuthenticationStatus = rootView.findViewById(id);
-      if (btnUserAuthenticationStatus == null) {
-        break missingId;
-      }
-
       id = R.id.dividerDarkMode;
       View dividerDarkMode = rootView.findViewById(id);
       if (dividerDarkMode == null) {
@@ -165,12 +104,6 @@ public final class DialogProfileBinding implements ViewBinding {
       id = R.id.dividerOpenSourceLicenses;
       View dividerOpenSourceLicenses = rootView.findViewById(id);
       if (dividerOpenSourceLicenses == null) {
-        break missingId;
-      }
-
-      id = R.id.dividerUserDetails;
-      View dividerUserDetails = rootView.findViewById(id);
-      if (dividerUserDetails == null) {
         break missingId;
       }
 
@@ -186,45 +119,21 @@ public final class DialogProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ivUserProfileDialog;
-      CircleImageView ivUserProfileDialog = rootView.findViewById(id);
-      if (ivUserProfileDialog == null) {
-        break missingId;
-      }
-
       id = R.id.switchDarkMode;
       SwitchMaterial switchDarkMode = rootView.findViewById(id);
       if (switchDarkMode == null) {
         break missingId;
       }
 
-      id = R.id.tvDotSeparator;
-      MaterialTextView tvDotSeparator = rootView.findViewById(id);
-      if (tvDotSeparator == null) {
+      id = R.id.tvProfile;
+      MaterialTextView tvProfile = rootView.findViewById(id);
+      if (tvProfile == null) {
         break missingId;
       }
 
-      id = R.id.tvEmail;
-      MaterialTextView tvEmail = rootView.findViewById(id);
-      if (tvEmail == null) {
-        break missingId;
-      }
-
-      id = R.id.tvFaqs;
-      MaterialTextView tvFaqs = rootView.findViewById(id);
-      if (tvFaqs == null) {
-        break missingId;
-      }
-
-      id = R.id.tvOpenSourceLicenses;
-      MaterialTextView tvOpenSourceLicenses = rootView.findViewById(id);
-      if (tvOpenSourceLicenses == null) {
-        break missingId;
-      }
-
-      id = R.id.tvPrivacyPolicy;
-      MaterialTextView tvPrivacyPolicy = rootView.findViewById(id);
-      if (tvPrivacyPolicy == null) {
+      id = R.id.tvPushNotification;
+      MaterialTextView tvPushNotification = rootView.findViewById(id);
+      if (tvPushNotification == null) {
         break missingId;
       }
 
@@ -240,35 +149,15 @@ public final class DialogProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvShareApp;
-      MaterialTextView tvShareApp = rootView.findViewById(id);
-      if (tvShareApp == null) {
+      id = R.id.tvSettings;
+      MaterialTextView tvSettings = rootView.findViewById(id);
+      if (tvSettings == null) {
         break missingId;
       }
 
-      id = R.id.tvTermsOfService;
-      MaterialTextView tvTermsOfService = rootView.findViewById(id);
-      if (tvTermsOfService == null) {
-        break missingId;
-      }
-
-      id = R.id.tvUserName;
-      MaterialTextView tvUserName = rootView.findViewById(id);
-      if (tvUserName == null) {
-        break missingId;
-      }
-
-      id = R.id.tvUserNotAuthenticated;
-      MaterialTextView tvUserNotAuthenticated = rootView.findViewById(id);
-      if (tvUserNotAuthenticated == null) {
-        break missingId;
-      }
-
-      return new DialogProfileBinding((ConstraintLayout) rootView, barrierUserDetails,
-          btnUserAuthenticationStatus, dividerDarkMode, dividerOpenSourceLicenses,
-          dividerUserDetails, glEnd, glStart, ivUserProfileDialog, switchDarkMode, tvDotSeparator,
-          tvEmail, tvFaqs, tvOpenSourceLicenses, tvPrivacyPolicy, tvRateApp, tvSendFeedback,
-          tvShareApp, tvTermsOfService, tvUserName, tvUserNotAuthenticated);
+      return new DialogProfileBinding((ConstraintLayout) rootView, dividerDarkMode,
+          dividerOpenSourceLicenses, glEnd, glStart, switchDarkMode, tvProfile, tvPushNotification,
+          tvRateApp, tvSendFeedback, tvSettings);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

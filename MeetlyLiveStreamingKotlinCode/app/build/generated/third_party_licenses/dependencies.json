@@ -24,6 +24,12 @@
         "name": "firebase-installations"
     },
     {
+        "group": "com.squareup.retrofit2",
+        "version": "2.5.0",
+        "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.retrofit2\\converter-gson\\2.5.0\\1c96fc5d0230f57d36cd09e2541d10829a3352a7\\converter-gson-2.5.0.jar",
+        "name": "converter-gson"
+    },
+    {
         "group": "com.google.android.gms",
         "version": "17.4.3",
         "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-impl\\17.4.3\\b257b2e317e4b47017437082dd062d5d7ead703d\\play-services-measurement-impl-17.4.3.aar",
@@ -100,6 +106,12 @@
         "version": "4.0.0-jitsi-4429568",
         "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.react\\react-native-keep-awake\\4.0.0-jitsi-4429568\\76cf45608c7649b2c35b181740d06cd3163f4901\\react-native-keep-awake-4.0.0-jitsi-4429568.aar",
         "name": "react-native-keep-awake"
+    },
+    {
+        "group": "com.google.code.gson",
+        "version": "2.8.2",
+        "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.8.2\\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\\gson-2.8.2.jar",
+        "name": "gson"
     },
     {
         "group": "androidx.media",
@@ -202,6 +214,12 @@
         "version": "17.0.0",
         "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-stats\\17.0.0\\5ed3441a1bcdb224b0fed0cc175257ed15174755\\play-services-stats-17.0.0.aar",
         "name": "play-services-stats"
+    },
+    {
+        "group": "com.squareup.retrofit2",
+        "version": "2.5.0",
+        "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.retrofit2\\retrofit\\2.5.0\\713ce36037bf24a76a3974c05cb85c3f754b1cc3\\retrofit-2.5.0.jar",
+        "name": "retrofit"
     },
     {
         "group": "com.mikepenz",
@@ -976,6 +994,12 @@
         "version": "1.1.0",
         "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\androidx.collection\\collection-ktx\\1.1.0\\f807b2f366f7b75142a67d2f3c10031065b5168\\collection-ktx-1.1.0.jar",
         "name": "collection-ktx"
+    },
+    {
+        "group": "com.android.volley",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Gunjan\\.gradle\\caches\\modules-2\\files-2.1\\com.android.volley\\volley\\1.1.0\\455f45f75823751ecdc46fec5cf4fb2b671ad0a4\\volley-1.1.0.aar",
+        "name": "volley"
     },
     {
         "group": "androidx.concurrent",

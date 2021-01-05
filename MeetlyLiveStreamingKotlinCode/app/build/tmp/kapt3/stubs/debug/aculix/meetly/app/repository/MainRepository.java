@@ -6,14 +6,14 @@ import java.lang.System;
 public final class MainRepository {
     private final aculix.meetly.app.db.MeetingDao meetingDao = null;
     
-    @org.jetbrains.annotations.Nullable
-    public final java.lang.Object addMeetingToDb(@org.jetbrains.annotations.NotNull
-    aculix.meetly.app.model.Meeting meeting, @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.Nullable()
+    public final java.lang.Object addMeetingToDb(@org.jetbrains.annotations.NotNull()
+    aculix.meetly.app.model.Meeting meeting, @org.jetbrains.annotations.NotNull()
     kotlin.coroutines.Continuation<? super java.lang.Long> p1) {
         return null;
     }
     
-    public MainRepository(@org.jetbrains.annotations.NotNull
+    public MainRepository(@org.jetbrains.annotations.NotNull()
     aculix.meetly.app.db.MeetingDao meetingDao) {
         super();
     }

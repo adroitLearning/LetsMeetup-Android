@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d226d8901973f37fcea34050460d62cf/jetified-imagepipeline-okhttp3-2.0.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c7e206d177866073f231608d29d6b75/jetified-imagepipeline-okhttp3-2.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c7e206d177866073f231608d29d6b75/jetified-imagepipeline-okhttp3-2.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c7e206d177866073f231608d29d6b75/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml" />
