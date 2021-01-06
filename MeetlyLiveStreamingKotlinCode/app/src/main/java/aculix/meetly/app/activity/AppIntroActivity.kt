@@ -21,12 +21,13 @@ class AppIntroActivity : AppIntro2() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_splash_screen)
 
-        addIntroFragments()
-        setTransformer(AppIntroPageTransformerType.Parallax())
+      /*  addIntroFragments()
+        setTransformer(AppIntroPageTransformerType.Parallax())*/
     }
 
-    override fun onSkipPressed(currentFragment: Fragment?) {
+   /* override fun onSkipPressed(currentFragment: Fragment?) {
         super.onSkipPressed(currentFragment)
 
         AppPref.isAppIntroShown = true
@@ -63,5 +64,6 @@ class AppIntroActivity : AppIntro2() {
             imageDrawable = R.drawable.ic_meeting_history,
             backgroundDrawable = R.drawable.bg_app_intro
         ))
+        }
+        */
     }
-}

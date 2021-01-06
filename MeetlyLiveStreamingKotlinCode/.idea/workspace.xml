@@ -22,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -38,10 +40,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/Gunjan/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore.preview.features.used" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="multi-representation-previewC:/Users/Gunjan/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -56,19 +60,23 @@
       <recent name="aculix.meetly.app.activity" />
       <recent name="aculix.meetly.app.models" />
     </key>
-    <key name="android.template.-1454528238">
+    <key name="android.template.-1498381536">
       <recent name="aculix.meetly.app.activity" />
     </key>
-    <key name="android.template.-1498381536">
+    <key name="android.template.-342434239">
+      <recent name="aculix.meetly.app.activity" />
+    </key>
+    <key name="android.template.-1932045900">
       <recent name="aculix.meetly.app.activity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\res\layout" />
+      <recent name="C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\res\values" />
       <recent name="C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\res" />
       <recent name="C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\java\aculix\meetly\app" />
       <recent name="C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app" />
     </key>
-    <key name="android.template.-1932045900">
+    <key name="android.template.-1454528238">
       <recent name="aculix.meetly.app.activity" />
     </key>
     <key name="android.template.1566147449">
@@ -170,70 +178,82 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="44" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1609131425665" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609241077264">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609909164955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609241077264" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609909164955" />
     <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1609392476485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1609392476485" />
-    <state x="518" y="149" key="AndroidCreateXmlResourceDialog" timestamp="1609833890729">
+    <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog" timestamp="1609909140088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="149" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1609833890729" />
-    <state x="481" y="109" key="AndroidProcessChooserDialog" timestamp="1609844743846">
+    <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1609909140088" />
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog" timestamp="1609909293112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="481" y="109" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1609844743846" />
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609909293112" />
+    <state x="518" y="149" key="AndroidCreateXmlResourceDialog" timestamp="1609938247256">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="149" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1609938247256" />
+    <state x="481" y="109" key="AndroidProcessChooserDialog" timestamp="1609940557741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="481" y="109" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1609940557741" />
     <state width="432" height="438" key="DebuggerActiveHint" timestamp="1609242741038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="432" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1609242741038" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609307634160">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609863997059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609307634160" />
-    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1609844847700">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609863997059" />
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1609940609473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609844847700" />
-    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1609844847700">
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609940609473" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1609940609473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609844847700" />
-    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1609844847700">
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609940609473" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1609940609473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609844847700" />
-    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1609844847700">
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609940609473" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1609940609473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609844847700" />
-    <state width="1322" height="2" key="GridCell.Tab.1.bottom" timestamp="1609844847701">
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609940609473" />
+    <state width="1322" height="2" key="GridCell.Tab.1.bottom" timestamp="1609940609474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609844847701" />
-    <state width="1322" height="2" key="GridCell.Tab.1.center" timestamp="1609844847700">
+    <state width="1322" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609940609474" />
+    <state width="1322" height="2" key="GridCell.Tab.1.center" timestamp="1609940609474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609844847700" />
-    <state width="1322" height="2" key="GridCell.Tab.1.left" timestamp="1609844847700">
+    <state width="1322" height="2" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609940609474" />
+    <state width="1322" height="2" key="GridCell.Tab.1.left" timestamp="1609940609474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609844847700" />
-    <state width="1322" height="2" key="GridCell.Tab.1.right" timestamp="1609844847700">
+    <state width="1322" height="2" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609940609474" />
+    <state width="1322" height="2" key="GridCell.Tab.1.right" timestamp="1609940609474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609844847700" />
+    <state width="1322" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609940609474" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1608910494429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608910494429" />
-    <state x="389" y="97" width="870" height="534" key="find.popup" timestamp="1609842988050">
+    <state x="389" y="97" width="870" height="534" key="find.popup" timestamp="1609939910850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="97" width="870" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1609842988050" />
+    <state x="389" y="97" width="870" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1609939910850" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1609850953417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609850953417" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,27 +275,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>258</line>
+          <line>200</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>287</line>
+          <line>229</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>252</line>
+          <line>194</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>247</line>
+          <line>189</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>279</line>
+          <line>221</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -283,7 +303,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>273</line>
+          <line>215</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -318,13 +338,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>276</line>
+          <line>218</line>
           <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/ProfileActivity.kt</url>
-          <line>149</line>
-          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/LoginActivity.kt</url>
@@ -333,57 +348,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>338</line>
+          <line>280</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>340</line>
+          <line>282</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/ProfileActivity.kt</url>
-          <line>65</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/ProfileActivity.kt</url>
-          <line>66</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/ProfileActivity.kt</url>
-          <line>67</line>
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>233</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>231</line>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>227</line>
-          <option name="timeStamp" value="115" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
-          <line>234</line>
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/MainActivity.kt</url>
-          <line>70</line>
+          <line>67</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/MainActivity.kt</url>
-          <line>74</line>
+          <line>71</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -393,22 +373,57 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/MainActivity.kt</url>
-          <line>49</line>
+          <line>45</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/MainActivity.kt</url>
-          <line>78</line>
+          <line>75</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/MainActivity.kt</url>
-          <line>96</line>
+          <line>112</line>
           <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
+          <line>156</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/RegistrationActivity.kt</url>
+          <line>158</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/VerifyEmailActivity.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/VerifyEmailActivity.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/VerifyMobileActivity.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/VerifyMobileActivity.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
           <url>file://$PROJECT_DIR$/app/src/main/java/aculix/meetly/app/activity/MainActivity.kt</url>
-          <line>48</line>
+          <line>44</line>
           <properties class="aculix.meetly.app.activity.MainActivity.Companion" method="startActivity">
             <option name="EMULATED" value="true" />
           </properties>

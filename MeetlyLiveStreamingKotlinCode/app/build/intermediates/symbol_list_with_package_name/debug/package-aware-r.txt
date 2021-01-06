@@ -63,6 +63,9 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
 array gender
 attr actionBarDivider
 attr actionBarItemBackground
@@ -989,6 +992,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bgcolor
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1182,6 +1186,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color spinner_txt_color
 color splashBgColor
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
@@ -1758,6 +1763,9 @@ drawable ic_appintro_indicator_unselected
 drawable ic_appintro_next
 drawable ic_appintro_ripple
 drawable ic_appintro_skip
+drawable ic_baseline_create_24
+drawable ic_baseline_email_24
+drawable ic_baseline_remove_red_eye_24
 drawable ic_calendar_black_24dp
 drawable ic_chat
 drawable ic_clear_black_24dp
@@ -1828,9 +1836,14 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable redbox_top_border_background
+drawable spinner_border
 drawable test_custom_background
+drawable text_input_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font montserrat
+font open_sans_bold
+font open_sans_semibold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1947,7 +1960,6 @@ id btnToggleJoinMeeting
 id btn_holder
 id btn_resend
 id btn_submit
-id button2
 id buttonPanel
 id button_continue
 id button_create
@@ -2027,21 +2039,18 @@ id easeOut
 id editTextTextPersonName
 id edit_phone_number
 id edit_query
-id edit_txt1
-id edit_txt2
-id edit_txt3
-id edt_Email
 id edt_confirm_pwd
 id edt_confirmnewPwd
 id edt_email
-id edt_gender
 id edt_logindata
 id edt_mobile
 id edt_mobileNo
+id edt_name
 id edt_newPwd
 id edt_oldPwd
 id edt_otp
 id edt_password
+id edt_passwordd
 id edt_pwd
 id edt_username
 id email
@@ -2056,8 +2065,10 @@ id enterAlways
 id enterAlwaysCollapsed
 id etCodeCreateMeeting
 id etCodeJoinMeeting
+id et_confirm_pwd
 id et_email
 id et_mobile
+id et_pwd
 id et_user_name
 id exitUntilCollapsed
 id expand_activities_button
@@ -2082,6 +2093,7 @@ id fixed
 id flip
 id focusCrop
 id forever
+id forgetPassword
 id fps_text
 id fragment_container_view_tag
 id fragment_phone
@@ -2113,7 +2125,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView2
+id imageView
+id imgSiteLogo
+id img_changepwd
+id include
 id indicator_container
 id info
 id invisible
@@ -2145,7 +2160,6 @@ id linear_layout
 id listMode
 id list_item
 id literal
-id ll_main_layout
 id login
 id logo
 id main
@@ -2225,6 +2239,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id otp_text
+id otp_text_mobile
 id outline
 id packed
 id parallax
@@ -2245,6 +2261,8 @@ id phone_number
 id pin
 id position
 id postLayout
+id prf_edt_email
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -2330,6 +2348,7 @@ id stretch
 id submenuarrow
 id submit
 id submit_area
+id submit_profile
 id switchDarkMode
 id tabMode
 id tag_accessibility_actions
@@ -2348,6 +2367,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView3
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2363,7 +2383,9 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toolbar
+id toolbar_title
 id top
+id topAppBar
 id topPanel
 id top_level_view
 id top_progress_bar
@@ -2390,8 +2412,10 @@ id tvRateApp
 id tvSendFeedback
 id tvSettings
 id tvTitle
+id tv_edt_otp
 id tv_signup
 id tv_time
+id txtTitle
 id txtView
 id unchecked
 id uniform
@@ -2399,6 +2423,7 @@ id unlabeled
 id up
 id upper
 id useLogo
+id verify_email
 id view_offset_helper
 id view_pager
 id view_tag_instance_handle
@@ -2489,6 +2514,7 @@ layout activity_main
 layout activity_meeting_history
 layout activity_profile
 layout activity_registration
+layout activity_splash_screen
 layout activity_test
 layout activity_verify_email
 layout activity_verify_mobile
@@ -2499,6 +2525,7 @@ layout appintro_intro_layout2
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
+layout custom_top_app_bar
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2733,6 +2760,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string admob_app_id
+string adroit
 string alert_description
 string all_btn_sign_in
 string all_btn_sign_out
@@ -2801,6 +2829,7 @@ string catalyst_sample_profiler_disable
 string catalyst_sample_profiler_enable
 string catalyst_settings
 string catalyst_settings_title
+string change_passowrd
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2826,11 +2855,17 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string confirmPassword
+string confirm_password
 string copy_toast_msg
 string default_web_client_id
 string define_fastadapter
 string dropbox_app_key
 string email
+string enter_email_password
+string enter_otp1
+string enter_otp2
+string enter_otp_0000
+string enter_otp_9999
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2850,6 +2885,7 @@ string faqs_password_protection_desc
 string faqs_password_protection_title
 string fastadapter_lib_version
 string firebase_web_host
+string forget_password
 string fui_accessibility_logo
 string fui_auto_verified
 string fui_button_text_save
@@ -2945,6 +2981,7 @@ string fui_welcome_back_idp_header
 string fui_welcome_back_idp_prompt
 string fui_welcome_back_password_prompt_body
 string fullName
+string full_name
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -2973,6 +3010,7 @@ string license_is_loading
 string license_list_is_loading
 string link_description
 string location
+string login
 string main_btn_create_meeting
 string main_btn_join_meeting
 string main_create_meeting
@@ -3031,12 +3069,15 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string new_Password
 string no_licenses_available
 string notification
+string old_password
 string ongoing_notification_text
 string ongoing_notification_title
 string oss_license_title
 string passowrd
+string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3058,6 +3099,9 @@ string progressbar_description
 string project_id
 string push_notification
 string radiogroup_description
+string register
+string registration
+string reset_in
 string rn_tab_description
 string s1
 string s2
@@ -3080,6 +3124,8 @@ string state_mixed_description
 string state_off_description
 string state_on_description
 string status_bar_notification_info_overflow
+string submit
+string submit_profile
 string summary_description
 string tablist_description
 string terms_conditions
@@ -3087,6 +3133,10 @@ string text_no_email_app_found
 string text_share_all_images
 string timer_description
 string toolbar_description
+string user_name
+string verify
+string verify_email
+string video_calling_app
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

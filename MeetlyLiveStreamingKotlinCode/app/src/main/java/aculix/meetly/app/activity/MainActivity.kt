@@ -12,24 +12,20 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
 import android.widget.Toast
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.view.GravityCompat
 import androidx.core.widget.doOnTextChanged
 import androidx.drawerlayout.widget.DrawerLayout
 import coil.api.load
 import com.afollestad.materialdialogs.LayoutMode
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.bottomsheets.BottomSheet
-import com.afollestad.materialdialogs.callbacks.onDismiss
 import com.afollestad.materialdialogs.customview.customView
-import com.firebase.ui.auth.AuthUI
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
-import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
@@ -61,6 +57,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var joinMeetingInterstitialAd: InterstitialAd
     var navigationView: NavigationView? = null
     var drawerLayout: DrawerLayout? = null
+    private var doubleBackToExitPressedOnce = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -92,7 +89,26 @@ class MainActivity : AppCompatActivity() {
       //  navigationBar()
     }
 
-/*    //Navigation Bar
+    override fun onBackPressed() {
+
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed()
+            val a = Intent(Intent.ACTION_MAIN)
+            a.addCategory(Intent.CATEGORY_HOME)
+            a.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(a)
+            finish()
+            return
+        }
+
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show()
+
+        Handler().postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
+
+    }
+
+    /*    //Navigation Bar
     private fun navigationBar() {
         navigationView.bringToFront()
         val toggle = ActionBarDrawerToggle(this, drawerLayout, topAppBar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
@@ -454,8 +470,8 @@ class MainActivity : AppCompatActivity() {
                 // Send feedback onClick
                 tvSendFeedback.setOnClickListener {
                     startEmailIntent(
-                        getString(R.string.app_feedback_contact_email),
-                        getString(R.string.profile_feedback_email_subject)
+                            getString(R.string.app_feedback_contact_email),
+                            getString(R.string.profile_feedback_email_subject)
                     )
                 }
 

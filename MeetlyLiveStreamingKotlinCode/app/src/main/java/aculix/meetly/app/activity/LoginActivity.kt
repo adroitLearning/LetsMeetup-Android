@@ -145,8 +145,13 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    fun onSignUpClick(view: View) {
+    fun onRegistrationClick(view: View) {
         val intent = Intent(this, RegistrationActivity::class.java)
         startActivity(intent)
     }
+
+    fun OnforgetPasswordClick(view: View) {
+        val intent = Intent(this@LoginActivity, ChangePasswordActivity::class.java)
+        startActivity(intent)
     }
+}

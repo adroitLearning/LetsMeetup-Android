@@ -24,6 +24,8 @@ class VerifyMobileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_verify_mobile)
 
+        otp_text_mobile.setText("Please enter an OTP sent to your : "+DataStore.MobileNo)
+
         val timer = object: CountDownTimer(60000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 tv_time.setText("00: " + millisUntilFinished / 1000)
@@ -38,7 +40,7 @@ class VerifyMobileActivity : AppCompatActivity() {
         timer.start()
     }
 
-    fun onResendClick(view: View) {
+    fun onResendMobileOTPClick(view: View) {
         val timer = object: CountDownTimer(60000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 tv_time.setText("00: " + millisUntilFinished / 1000)
@@ -53,7 +55,7 @@ class VerifyMobileActivity : AppCompatActivity() {
         timer.start()
 
     }
-    fun onVerifyClick(view: View) {
+    fun onVerifyMobileClick(view: View) {
         if(edt_otp.editableText.toString().isEmpty()){
             edt_otp.setError("Please enter otp")
             return

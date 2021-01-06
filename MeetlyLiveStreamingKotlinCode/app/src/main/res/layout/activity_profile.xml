@@ -1,178 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.ProfileActivity"
-    android:orientation="vertical">
+    tools:context=".activity.ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/include"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/profile"
+            android:textColor="@color/whiteColor"
+            android:gravity = "center"
+            android:textSize="23dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:id="@+id/toolbar_title" />
+
+    </androidx.appcompat.widget.Toolbar>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                android:layout_marginTop="31dp"
-                android:layout_marginBottom="12dp"
+                android:id="@+id/imageView"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/ic_meeting_main"
                 app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
                 tools:ignore="MissingConstraints" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Profile"
-                android:textSize="20dp"
-                android:layout_gravity="center_horizontal"
-                tools:ignore="MissingConstraints"
-                />
-
-            <LinearLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
-                <TextView
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Full Name"
-                    android:textColor="@color/faintgraycolor"/>
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:hint="@string/full_name"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:startIconDrawable="@drawable/ic_baseline_email_24"
+                    app:startIconTint="@color/colorPrimaryDark">
 
-                <EditText
-                    android:id="@+id/edt_username"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColorHint="@color/faintgraycolor"
-                    android:inputType="textPersonName"
-                    tools:ignore="MissingConstraints" />
-            </LinearLayout>
+                    <EditText
+                        android:id="@+id/edt_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:inputType="text" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Email"
-                    android:textColor="@color/faintgraycolor"/>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <EditText
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/edt_email"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColorHint="@color/faintgraycolor"
-                    android:inputType="textPersonName"
-                    tools:ignore="MissingConstraints" />
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:hint="@string/email"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edt_name"
+                    app:startIconDrawable="@drawable/ic_baseline_email_24"
+                    app:startIconTint="@color/colorPrimaryDark">
 
-           <!--     <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="Onverify_emailClick"
-                    android:text="Verify Email"/>-->
-            </LinearLayout>
+                    <EditText
+                        android:id="@+id/prf_edt_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:inputType="text" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Mobile No"
-                    android:textColor="@color/faintgraycolor"/>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <EditText
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/edt_mobile"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColorHint="@color/faintgraycolor"
-                    android:inputType="textPersonName"
-                    tools:ignore="MissingConstraints" />
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:hint="@string/mobileNumber"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edt_email"
+                    app:startIconDrawable="@drawable/ic_baseline_email_24"
+                    app:startIconTint="@color/colorPrimaryDark">
 
-            <!--    <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="Onverify_mobileClick"
-                    android:text="Verify Mobile"/>-->
-            </LinearLayout>
+                    <EditText
+                        android:id="@+id/edt_mobileNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:maxLength="10"
+                        android:inputType="number" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
-                <TextView
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <!--   <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gender"
-                    android:textColor="@color/faintgraycolor"/>
+                    android:id="@+id/linear_layout"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edt_mobile"
+                    tools:ignore="MissingConstraints">
 
-                <EditText
-                    android:id="@+id/edt_gender"
+                    <ImageButton
+                        style="?android:buttonBarButtonStyle"
+                        android:paddingBottom="6dp"
+                        android:id="@+id/img_changepwd"
+                        android:layout_marginBottom="6dp"
+                        android:src="@drawable/ic_baseline_email_24"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/txtView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select gender :"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textColor="@color/spinner_txt_color"
+                        android:textSize = "20dp" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_alignBottom="@id/txtView" />
+                </LinearLayout>-->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/et_pwd"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColorHint="@color/faintgraycolor"
-                    android:inputType="textPersonName"
-                    tools:ignore="MissingConstraints" />
-            </LinearLayout>
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    app:startIconDrawable="@drawable/ic_baseline_create_24"
+                    app:startIconTint="@color/colorPrimaryDark"
+                    app:endIconDrawable="@drawable/ic_baseline_remove_red_eye_24"
+                    app:endIconTint="@color/colorPrimaryDark"
+                    android:hint="@string/passowrd"
+                    app:endIconMode="password_toggle"
+                    app:errorEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edt_mobile">
+                    <EditText
+                        android:id="@+id/edt_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Password"
-                    android:textColor="@color/faintgraycolor"/>
+                    android:id="@+id/linear_layout"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="56dp"
+                    android:layout_marginLeft="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/et_pwd"
+                    tools:ignore="MissingConstraints">
 
-                <EditText
-                    android:id="@+id/edt_password"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColorHint="@color/faintgraycolor"
-                    android:drawableRight="@drawable/ic_app_logo"
-                    android:inputType="textPersonName"
-                    tools:ignore="MissingConstraints" />
-            </LinearLayout>
+                    <!--    <ImageButton
+                            style="?android:buttonBarButtonStyle"
+                            android:paddingBottom="6dp"
+                            android:id="@+id/img_changepwd"
+                            android:layout_marginBottom="6dp"
+                            android:src="@drawable/ic_baseline_email_24"
+                            android:backgroundTint="@color/ic_launcher_background"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />-->
+                    <TextView
+                        android:id="@+id/txtView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select gender :"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/spinner_txt_color"
+                        android:textSize = "15dp" />
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Update profile"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:onClick="onProfileSubmitClick"
-                tools:ignore="MissingConstraints" />
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_alignBottom="@id/txtView" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/submit_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/submit_profile"
+                    android:onClick="onProfileSubmitClick"
+                    android:fontFamily="@font/montserrat"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/linear_layout"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/linear_layout"
+                    app:layout_constraintTop_toBottomOf="@+id/linear_layout" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
+
     </ScrollView>
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

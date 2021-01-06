@@ -35,6 +35,7 @@ class RegistrationActivity : AppCompatActivity() {
 
         btn_submit.isEnabled = true
 
+
         et_user_name.addTextChangedListener(object : TextWatcher{
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
             }
@@ -47,8 +48,6 @@ class RegistrationActivity : AppCompatActivity() {
             }
         })
 
-        // access the items of the list
-        val gender = resources.getStringArray(R.array.gender)
 
         et_email.addTextChangedListener(object : TextWatcher{
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -89,45 +88,11 @@ class RegistrationActivity : AppCompatActivity() {
             }
         })
 
-       /* //check if passsword match or not
-        edt_confirm_pwd.addTextChangedListener(object : TextWatcher{
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-            }
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-
-            }
-            override fun afterTextChanged(s: Editable?) {
-            }
-        })*/
-
-    /*    //check otp for email and phone no.
-        edt_confirm_pwd.addTextChangedListener(object : TextWatcher{
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-            }
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                if  (edt_pwd.getText().toString() != edt_confirm_pwd.getText().toString()) {
-                    Toast.makeText(
-                        this@RegistrationActivity,
-                        "Password not correct", Toast.LENGTH_SHORT
-                    ).show()
-                }
-            }
-            override fun afterTextChanged(s: Editable?) {
-            }
-        })*/
-
-
-     /*   //check otp for email and phone no.
-        if (!edt_email_otp.getText().toString().equals("0000") || !edt_mobileno_otp.getText().toString().equals(
-                "9999"
-            )){
-         *//*   Toast.makeText(
-                this@RegistrationActivity,
-                "Enter correct otp", Toast.LENGTH_SHORT
-            ).show()*//*
-        }*/
 
         // access the spinner
+        // access the items of the list
+        val gender = resources.getStringArray(R.array.gender)
+
         val spinner = findViewById<Spinner>(R.id.spinner)
         if (spinner != null) {
             val adapter = ArrayAdapter(
@@ -162,31 +127,6 @@ class RegistrationActivity : AppCompatActivity() {
         return matcher.matches()
     }
 
-  /*  //date picker code
-    fun clickDataPicker(view: View) {
-        val c = Calendar.getInstance()
-        val year = c.get(Calendar.YEAR)
-        val month = c.get(Calendar.MONTH)
-        val day = c.get(Calendar.DAY_OF_MONTH)
-
-        val dpd = DatePickerDialog(
-            this,
-            DatePickerDialog.OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
-                // Display Selected date in Toast
-                // Toast.makeText(this, """$dayOfMonth - ${monthOfYear + 1} - $year""", Toast.LENGTH_LONG).show()
-
-                val date = """$dayOfMonth - ${monthOfYear + 1} - $year""";
-
-                Toast.makeText(this, date, Toast.LENGTH_LONG).show()
-                btn_dob.setText(date);
-            },
-            year,
-            month,
-            day
-        )
-        dpd.show()
-    }*/
-
     //submit button click
     fun onSubmitClick(view: View) {
         if(et_user_name.editableText.toString().isEmpty()){
@@ -214,6 +154,8 @@ class RegistrationActivity : AppCompatActivity() {
             return
         }
         else{
+            DataStore.EmailId = et_email.editableText.toString();
+            DataStore.MobileNo = et_mobile.editableText.toString();
             btn_submit.isEnabled = false
 
             val name = "g@gmail.com"

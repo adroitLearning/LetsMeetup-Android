@@ -8,48 +8,72 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final EditText edtLogindata;
 
   @NonNull
+  public final TextInputLayout edtName;
+
+  @NonNull
   public final EditText edtPassword;
 
   @NonNull
-  public final ImageView imageView2;
+  public final TextInputLayout edtPasswordd;
+
+  @NonNull
+  public final TextView forgetPassword;
+
+  @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final Toolbar include;
 
   @NonNull
   public final Button login;
 
   @NonNull
+  public final TextView toolbarTitle;
+
+  @NonNull
   public final TextView tvSignup;
 
-  private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull EditText edtLogindata,
-      @NonNull EditText edtPassword, @NonNull ImageView imageView2, @NonNull Button login,
-      @NonNull TextView tvSignup) {
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull EditText edtLogindata,
+      @NonNull TextInputLayout edtName, @NonNull EditText edtPassword,
+      @NonNull TextInputLayout edtPasswordd, @NonNull TextView forgetPassword,
+      @NonNull ImageView imageView, @NonNull Toolbar include, @NonNull Button login,
+      @NonNull TextView toolbarTitle, @NonNull TextView tvSignup) {
     this.rootView = rootView;
     this.edtLogindata = edtLogindata;
+    this.edtName = edtName;
     this.edtPassword = edtPassword;
-    this.imageView2 = imageView2;
+    this.edtPasswordd = edtPasswordd;
+    this.forgetPassword = forgetPassword;
+    this.imageView = imageView;
+    this.include = include;
     this.login = login;
+    this.toolbarTitle = toolbarTitle;
     this.tvSignup = tvSignup;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -80,15 +104,39 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.edt_name;
+      TextInputLayout edtName = rootView.findViewById(id);
+      if (edtName == null) {
+        break missingId;
+      }
+
       id = R.id.edt_password;
       EditText edtPassword = rootView.findViewById(id);
       if (edtPassword == null) {
         break missingId;
       }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
+      id = R.id.edt_passwordd;
+      TextInputLayout edtPasswordd = rootView.findViewById(id);
+      if (edtPasswordd == null) {
+        break missingId;
+      }
+
+      id = R.id.forgetPassword;
+      TextView forgetPassword = rootView.findViewById(id);
+      if (forgetPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView;
+      ImageView imageView = rootView.findViewById(id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.include;
+      Toolbar include = rootView.findViewById(id);
+      if (include == null) {
         break missingId;
       }
 
@@ -98,14 +146,21 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.toolbar_title;
+      TextView toolbarTitle = rootView.findViewById(id);
+      if (toolbarTitle == null) {
+        break missingId;
+      }
+
       id = R.id.tv_signup;
       TextView tvSignup = rootView.findViewById(id);
       if (tvSignup == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((LinearLayout) rootView, edtLogindata, edtPassword,
-          imageView2, login, tvSignup);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, edtLogindata, edtName,
+          edtPassword, edtPasswordd, forgetPassword, imageView, include, login, toolbarTitle,
+          tvSignup);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

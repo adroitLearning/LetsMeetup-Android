@@ -1,113 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.VerifyMobileActivity"
-    android:orientation="vertical">
+    tools:context=".activity.VerifyMobileActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/include"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        tools:ignore="MissingConstraints">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Verify Mobile"
-            android:textSize="20dp"
-            android:layout_gravity="center_horizontal"
-            tools:ignore="MissingConstraints"
-            />
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_marginTop="31dp"
-            android:layout_marginBottom="12dp"
-            app:srcCompat="@drawable/ic_meeting_main"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-            tools:ignore="MissingConstraints" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/verify_email"
+            android:textColor="@color/whiteColor"
+            android:gravity = "center"
+            android:textSize="23dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:id="@+id/toolbar_title" />
 
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Please enter an OTP sent to your "
-                android:textColor="@color/faintgraycolor"/>
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/edt_mobileNo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="9156602107"
-                android:textColorHint="@color/faintgraycolor"
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_meeting_main"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
                 tools:ignore="MissingConstraints" />
 
-            <EditText
-                android:id="@+id/edt_otp"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter Otp 0000"
-                android:textColorHint="@color/faintgraycolor"
-                tools:ignore="MissingConstraints" />
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_otp2"
+                    android:textColor="@color/faintgraycolor"
+                    android:id="@+id/otp_text_mobile"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    tools:ignore="MissingConstraints" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tv_edt_otp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:hint="@string/enter_otp_0000"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:startIconDrawable="@drawable/ic_baseline_email_24"
+                    app:startIconTint="@color/colorPrimaryDark">
+
+                    <EditText
+                        android:id="@+id/edt_otp"
+                        android:maxLength="4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:inputType="number" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/linear_layout"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_edt_otp"
+                    app:layout_constraintStart_toStartOf="@+id/tv_edt_otp"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_edt_otp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reset_in"
+                        android:textColor="@color/faintgraycolor"
+                        android:textSize="20dp"
+                        android:textColorHint="@color/faintgraycolor"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_time"
+                        android:text="00: 59 "
+                        android:layout_marginLeft="10dp"
+                        android:textColorHint="@color/faintgraycolor"
+                        tools:ignore="MissingConstraints" />
+
+                    <Button
+                        android:id="@+id/btn_resend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Resend"
+                        android:onClick="onResendMobileOTPClick"
+                        tools:ignore="MissingConstraints" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/verify"
+                    android:onClick="onVerifyMobileClick"
+                    android:fontFamily="@font/montserrat"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/linear_layout"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/linear_layout"
+                    app:layout_constraintTop_toBottomOf="@+id/linear_layout" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Resent in "
-                android:textSize="20dp"
-                android:textColorHint="@color/faintgraycolor"
-                tools:ignore="MissingConstraints" />
+    </ScrollView>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_time"
-                android:text="00: 59 "
-                android:layout_marginLeft="10dp"
-                android:textColorHint="@color/faintgraycolor"
-                tools:ignore="MissingConstraints" />
-
-            <Button
-                android:id="@+id/btn_resend"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Resend"
-                android:onClick="onResendClick"
-                tools:ignore="MissingConstraints" />
-
-        </LinearLayout>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Verify"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:onClick="onVerifyClick"
-            tools:ignore="MissingConstraints" />
-
-    </LinearLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

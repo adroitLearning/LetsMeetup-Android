@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\item_faqs.xml"
     },
     {
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_top_app_bar.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\custom_top_app_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration.xml",
         "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\activity_registration.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_meeting_history.xml",

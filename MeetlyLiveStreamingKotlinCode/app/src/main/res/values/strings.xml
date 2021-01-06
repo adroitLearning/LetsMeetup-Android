@@ -1,6 +1,6 @@
 <resources>
     <!-- App -->
-    <string name="app_name">Link Up</string>
+    <string name="app_name">Link-Up</string>
     <string name="app_server_url">https://meet.jit.si</string>
     <string name="app_dynamic_link_url_prefix">https://meetlyapp.page.link</string>
     <string name="app_deep_link_url">https://meetly.aculix.com/?meetingCode=%1$s</string>
@@ -87,17 +87,40 @@
     //by sunny
     <string name="signUp">string</string>
     <string name="fullName">fullName</string>
-    <string name="email">mail</string>
-    <string name="mobileNumber">mobile</string>
+    <string name="email">Email</string>
+    <string name="mobileNumber">Mobile No</string>
     <string name="location">location</string>
-    <string name="passowrd">pswd</string>
-    <string name="confirmPassword">con_pswd</string>
+    <string name="passowrd">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
     <string name="terms_conditions">terms_cond</string>
     <string name="already_user">user</string>
 
     <string name="selected_item">Selected item:</string>
     <string name="notification">Notification</string>
     <string name="all_faqs">Frequently Asked Question</string>
+    <string name="enter_email_password">Email/Password</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="submit">Submit</string>
+    <string name="submit_profile">Submit profile</string>
+    <string name="registration">Registration</string>
+    <string name="user_name">user name</string>
+    <string name="login">Login</string>
+    <string name="forget_password">forgot_password?</string>
+    <string name="register">Haven\'t account? wan\'t register?</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="reset_in">Reset in</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp1">"Please enter an OTP sent to your : g@gmail.com "</string>
+    <string name="enter_otp2">"Please enter an OTP sent to your : 9156602107 "</string>
+    <string name="enter_otp_0000">Enter Otp 0000</string>
+    <string name="enter_otp_9999">Enter Otp 9999</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_Password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_passowrd">Change Password</string>
+    <string name="video_calling_app">A Video Calling App</string>
+    <string name="adroit">Adroit</string>
 
     <string-array name="gender">
         <item>Male</item>

@@ -44,17 +44,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="aculix.meetly.app.activity.SplashScreenActivity" />
         <activity android:name="aculix.meetly.app.activity.VerifyMobileActivity" />
-        <activity android:name="aculix.meetly.app.activity.VerifyEmailActivity" >
-        </activity>
+        <activity android:name="aculix.meetly.app.activity.VerifyEmailActivity" />
         <activity android:name="aculix.meetly.app.activity.ChangePasswordActivity" />
         <activity android:name="aculix.meetly.app.activity.ProfileActivity" >
         </activity>
-        <activity android:name="aculix.meetly.app.activity.TestActivity" />
-        <activity android:name="aculix.meetly.app.activity.LoginActivity" />
-        <activity android:name="aculix.meetly.app.activity.RegistrationActivity" />
+        <activity android:name="aculix.meetly.app.activity.TestActivity" >
+        </activity>
+        <activity android:name="aculix.meetly.app.activity.LoginActivity" >
+        </activity>
+        <activity android:name="aculix.meetly.app.activity.RegistrationActivity" >
+        </activity>
         <activity
             android:name="aculix.meetly.app.activity.SplashActivity"
             android:screenOrientation="portrait"

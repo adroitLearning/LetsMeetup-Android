@@ -13,14 +13,17 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityRegistrationBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button btnSubmit;
@@ -29,7 +32,19 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   public final EditText edtConfirmPwd;
 
   @NonNull
+  public final TextInputLayout edtEmail;
+
+  @NonNull
+  public final TextInputLayout edtMobile;
+
+  @NonNull
+  public final TextInputLayout edtName;
+
+  @NonNull
   public final EditText edtPwd;
+
+  @NonNull
+  public final TextInputLayout etConfirmPwd;
 
   @NonNull
   public final EditText etEmail;
@@ -38,45 +53,59 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   public final EditText etMobile;
 
   @NonNull
+  public final TextInputLayout etPwd;
+
+  @NonNull
   public final EditText etUserName;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView imageView;
+
+  @NonNull
+  public final Toolbar include;
 
   @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
-  public final LinearLayout llMainLayout;
+  public final Spinner spinner;
 
   @NonNull
-  public final Spinner spinner;
+  public final TextView toolbarTitle;
 
   @NonNull
   public final TextView txtView;
 
-  private ActivityRegistrationBinding(@NonNull LinearLayout rootView, @NonNull Button btnSubmit,
-      @NonNull EditText edtConfirmPwd, @NonNull EditText edtPwd, @NonNull EditText etEmail,
-      @NonNull EditText etMobile, @NonNull EditText etUserName, @NonNull ImageView imageView2,
-      @NonNull LinearLayout linearLayout, @NonNull LinearLayout llMainLayout,
-      @NonNull Spinner spinner, @NonNull TextView txtView) {
+  private ActivityRegistrationBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnSubmit,
+      @NonNull EditText edtConfirmPwd, @NonNull TextInputLayout edtEmail,
+      @NonNull TextInputLayout edtMobile, @NonNull TextInputLayout edtName,
+      @NonNull EditText edtPwd, @NonNull TextInputLayout etConfirmPwd, @NonNull EditText etEmail,
+      @NonNull EditText etMobile, @NonNull TextInputLayout etPwd, @NonNull EditText etUserName,
+      @NonNull ImageView imageView, @NonNull Toolbar include, @NonNull LinearLayout linearLayout,
+      @NonNull Spinner spinner, @NonNull TextView toolbarTitle, @NonNull TextView txtView) {
     this.rootView = rootView;
     this.btnSubmit = btnSubmit;
     this.edtConfirmPwd = edtConfirmPwd;
+    this.edtEmail = edtEmail;
+    this.edtMobile = edtMobile;
+    this.edtName = edtName;
     this.edtPwd = edtPwd;
+    this.etConfirmPwd = etConfirmPwd;
     this.etEmail = etEmail;
     this.etMobile = etMobile;
+    this.etPwd = etPwd;
     this.etUserName = etUserName;
-    this.imageView2 = imageView2;
+    this.imageView = imageView;
+    this.include = include;
     this.linearLayout = linearLayout;
-    this.llMainLayout = llMainLayout;
     this.spinner = spinner;
+    this.toolbarTitle = toolbarTitle;
     this.txtView = txtView;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -113,9 +142,33 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.edt_email;
+      TextInputLayout edtEmail = rootView.findViewById(id);
+      if (edtEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_mobile;
+      TextInputLayout edtMobile = rootView.findViewById(id);
+      if (edtMobile == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_name;
+      TextInputLayout edtName = rootView.findViewById(id);
+      if (edtName == null) {
+        break missingId;
+      }
+
       id = R.id.edt_pwd;
       EditText edtPwd = rootView.findViewById(id);
       if (edtPwd == null) {
+        break missingId;
+      }
+
+      id = R.id.et_confirm_pwd;
+      TextInputLayout etConfirmPwd = rootView.findViewById(id);
+      if (etConfirmPwd == null) {
         break missingId;
       }
 
@@ -131,15 +184,27 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.et_pwd;
+      TextInputLayout etPwd = rootView.findViewById(id);
+      if (etPwd == null) {
+        break missingId;
+      }
+
       id = R.id.et_user_name;
       EditText etUserName = rootView.findViewById(id);
       if (etUserName == null) {
         break missingId;
       }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
+      id = R.id.imageView;
+      ImageView imageView = rootView.findViewById(id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.include;
+      Toolbar include = rootView.findViewById(id);
+      if (include == null) {
         break missingId;
       }
 
@@ -149,15 +214,15 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ll_main_layout;
-      LinearLayout llMainLayout = rootView.findViewById(id);
-      if (llMainLayout == null) {
-        break missingId;
-      }
-
       id = R.id.spinner;
       Spinner spinner = rootView.findViewById(id);
       if (spinner == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar_title;
+      TextView toolbarTitle = rootView.findViewById(id);
+      if (toolbarTitle == null) {
         break missingId;
       }
 
@@ -167,9 +232,9 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegistrationBinding((LinearLayout) rootView, btnSubmit, edtConfirmPwd,
-          edtPwd, etEmail, etMobile, etUserName, imageView2, linearLayout, llMainLayout, spinner,
-          txtView);
+      return new ActivityRegistrationBinding((ConstraintLayout) rootView, btnSubmit, edtConfirmPwd,
+          edtEmail, edtMobile, edtName, edtPwd, etConfirmPwd, etEmail, etMobile, etPwd, etUserName,
+          imageView, include, linearLayout, spinner, toolbarTitle, txtView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

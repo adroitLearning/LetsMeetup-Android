@@ -77,7 +77,7 @@
 36-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
 37
 38    <application
-38-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:6:5-67:19
+38-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:6:5-72:19
 39        android:name="aculix.meetly.app.Meetly"
 39-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:7:9-31
 40        android:allowBackup="true"
@@ -93,565 +93,569 @@
 45-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:11:9-54
 46        android:supportsRtl="true"
 46-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:12:9-35
-47        android:testOnly="true"
-48        android:theme="@style/AppTheme" >
-48-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:13:9-40
+47        android:theme="@style/AppTheme" >
+47-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:13:9-40
+48        <activity android:name="aculix.meetly.app.activity.SplashScreenActivity" />
+48-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:15:9-76
+48-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:15:19-64
 49        <activity android:name="aculix.meetly.app.activity.VerifyMobileActivity" />
-49-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:15:9-76
-49-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:15:19-64
-50        <activity android:name="aculix.meetly.app.activity.VerifyEmailActivity" >
-50-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:16:9-18:20
-50-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:16:19-63
-51        </activity>
-52        <activity android:name="aculix.meetly.app.activity.ChangePasswordActivity" />
-52-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:19:9-69
-52-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:19:19-66
-53        <activity android:name="aculix.meetly.app.activity.ProfileActivity" >
-53-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:20:9-22:20
-53-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:20:19-59
-54        </activity>
-55        <activity android:name="aculix.meetly.app.activity.TestActivity" />
-55-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:23:9-59
-55-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:23:19-56
-56        <activity android:name="aculix.meetly.app.activity.LoginActivity" />
-56-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:24:9-60
-56-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:24:19-57
-57        <activity android:name="aculix.meetly.app.activity.RegistrationActivity" />
-57-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:25:9-67
-57-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:25:19-64
-58        <activity
-58-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:26:9-35:20
-59            android:name="aculix.meetly.app.activity.SplashActivity"
-59-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:27:13-52
-60            android:screenOrientation="portrait"
-60-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:28:13-49
-61            android:theme="@style/AppTheme.Splash" >
-61-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:29:13-51
-62            <intent-filter>
-62-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:30:13-34:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:31:17-69
-63-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:31:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:33:17-77
-65-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:33:27-74
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:36:9-38:52
-69            android:name="aculix.meetly.app.activity.AppIntroActivity"
-69-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:37:13-54
-70            android:screenOrientation="portrait" />
-70-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:38:13-49
-71        <activity
-71-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:39:9-41:52
-72            android:name="aculix.meetly.app.activity.AuthenticationActivity"
-72-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:40:13-60
-73            android:screenOrientation="portrait" />
-73-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:41:13-49
-74        <activity
-74-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:42:9-55:20
-75            android:name="aculix.meetly.app.activity.MainActivity"
-75-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:43:13-50
-76            android:screenOrientation="portrait" >
-76-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:44:13-49
-77            <intent-filter>
-77-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:45:13-54:29
-78                <action android:name="android.intent.action.VIEW" />
-78-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:46:17-69
-78-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:46:25-66
-79
-80                <category android:name="android.intent.category.DEFAULT" />
-80-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:48:17-76
-80-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:48:27-73
-81                <category android:name="android.intent.category.BROWSABLE" />
-81-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:49:17-78
-81-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:49:27-75
-82
-83                <data
-83-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:51:17-53:46
-84                    android:host="@string/app_deep_link_domain"
-84-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:52:21-64
-85                    android:scheme="https" />
-85-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:53:21-43
-86            </intent-filter>
-87        </activity>
-88        <activity
-88-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:56:9-59:52
-89            android:name="aculix.meetly.app.activity.MeetingHistoryActivity"
-89-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:57:13-60
-90            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
-90-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:58:13-64
-91            android:screenOrientation="portrait" />
-91-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:59:13-49
-92        <activity
-92-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:60:9-63:52
-93            android:name="aculix.meetly.app.activity.FaqsActivity"
-93-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:61:13-50
-94            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
-94-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:62:13-64
-95            android:screenOrientation="portrait" /> <!-- Admob -->
-95-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:63:13-49
-96        <meta-data
-96-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:64:9-66:52
-97            android:name="com.google.android.gms.ads.APPLICATION_ID"
-97-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:65:13-69
-98            android:value="@string/admob_app_id" />
-98-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:66:13-49
-99
-100        <service
-100-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:25:9-31:19
-101            android:name="com.google.firebase.components.ComponentDiscoveryService"
-101-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:26:13-84
-102            android:directBootAware="true"
-102-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-103            android:exported="false" >
-103-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:27:13-37
-104            <meta-data
-104-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:28:13-30:85
-105                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.ktx.FirebaseDynamicLinksRegistrar"
-105-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:29:17-129
-106                android:value="com.google.firebase.components.ComponentRegistrar" />
-106-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:30:17-82
-107            <meta-data
-107-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\7b3e6c63ee5e89a394e26217e2a2cf43\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:15:13-17:85
-108                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-108-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\7b3e6c63ee5e89a394e26217e2a2cf43\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:16:17-113
-109                android:value="com.google.firebase.components.ComponentRegistrar" />
-109-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\7b3e6c63ee5e89a394e26217e2a2cf43\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:17:17-82
-110            <meta-data
-110-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
-111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-111-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
-112                android:value="com.google.firebase.components.ComponentRegistrar" />
-112-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
-113            <meta-data
-113-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\cbed458a665a4393557fe40318161a61\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
-114                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-114-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\cbed458a665a4393557fe40318161a61\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
-115                android:value="com.google.firebase.components.ComponentRegistrar" />
-115-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\cbed458a665a4393557fe40318161a61\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
-116            <meta-data
-116-->[com.google.firebase:firebase-dynamic-links:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3b6485aa40a2e9660ebb0d301f83f0c0\jetified-firebase-dynamic-links-19.1.0\AndroidManifest.xml:9:13-11:85
-117                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
-117-->[com.google.firebase:firebase-dynamic-links:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3b6485aa40a2e9660ebb0d301f83f0c0\jetified-firebase-dynamic-links-19.1.0\AndroidManifest.xml:10:17-133
-118                android:value="com.google.firebase.components.ComponentRegistrar" />
-118-->[com.google.firebase:firebase-dynamic-links:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3b6485aa40a2e9660ebb0d301f83f0c0\jetified-firebase-dynamic-links-19.1.0\AndroidManifest.xml:11:17-82
-119            <meta-data
-119-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
-120                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-120-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
-121                android:value="com.google.firebase.components.ComponentRegistrar" />
-121-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
-122            <meta-data
-122-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\4675ab03268f967ab18569b87d046599\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
-123                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-123-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\4675ab03268f967ab18569b87d046599\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
-124                android:value="com.google.firebase.components.ComponentRegistrar" />
-124-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\4675ab03268f967ab18569b87d046599\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
-125        </service>
-126
-127        <meta-data
-127-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:16:9-18:69
-128            android:name="com.google.android.gms.version"
-128-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:17:13-58
-129            android:value="@integer/google_play_services_version" />
-129-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:18:13-66
-130        <meta-data
-130-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:19:9-21:63
-131            android:name="com.facebook.sdk.ApplicationId"
-131-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:20:13-58
-132            android:value="@string/facebook_application_id" />
-132-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:21:13-60
-133
-134        <activity
-134-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:23:9-27:61
-135            android:name="com.firebase.ui.auth.KickoffActivity"
-135-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:24:13-64
-136            android:exported="false"
-136-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:25:13-37
-137            android:label=""
-137-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:26:13-29
-138            android:theme="@style/FirebaseUI.Transparent" />
-138-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:27:13-58
-139        <activity
-139-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:28:9-32:61
-140            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
-140-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:29:13-76
-141            android:exported="false"
-141-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:30:13-37
-142            android:label=""
-142-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:31:13-29
-143            android:theme="@style/FirebaseUI.Transparent" />
-143-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:32:13-58
-144        <activity
-144-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:33:9-37:61
-145            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
-145-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:34:13-86
-146            android:exported="false"
-146-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:35:13-37
-147            android:label=""
-147-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:36:13-29
-148            android:theme="@style/FirebaseUI.Transparent" />
-148-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:37:13-58
-149        <activity
-149-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:38:9-42:58
-150            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
-150-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:39:13-81
-151            android:exported="false"
-151-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:40:13-37
-152            android:label="@string/fui_title_recover_password_activity"
-152-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:41:13-72
-153            android:windowSoftInputMode="adjustResize" />
-153-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:42:13-55
-154        <activity
-154-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:43:9-47:58
-155            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
-155-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:44:13-71
-156            android:exported="false"
-156-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:45:13-37
-157            android:label="@string/fui_sign_in_default"
-157-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:46:13-56
-158            android:windowSoftInputMode="adjustResize" />
-158-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:47:13-55
-159        <activity
-159-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:48:9-52:77
-160            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
-160-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:49:13-71
-161            android:exported="false"
-161-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:50:13-37
-162            android:label="@string/fui_sign_in_with_phone_number"
-162-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:51:13-66
-163            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
-163-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:52:13-74
-164        <activity
-164-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:53:9-57:58
-165            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
-165-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:54:13-76
-166            android:exported="false"
-166-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:55:13-37
-167            android:label="@string/fui_title_welcome_back_idp_prompt"
-167-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:56:13-70
-168            android:windowSoftInputMode="adjustResize" />
-168-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:57:13-55
-169        <activity
-169-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:58:9-62:58
-170            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
-170-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:59:13-83
-171            android:exported="false"
-171-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:60:13-37
-172            android:label="@string/fui_title_welcome_back_password_prompt"
-172-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:61:13-75
-173            android:windowSoftInputMode="adjustResize" />
-173-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:62:13-55
-174        <activity
-174-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:63:9-67:58
-175            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
-175-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:64:13-84
-176            android:exported="false"
-176-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:65:13-37
-177            android:label="@string/fui_title_welcome_back_password_prompt"
-177-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:66:13-75
-178            android:windowSoftInputMode="adjustResize" />
-178-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:67:13-55
-179        <activity
-179-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:68:9-73:58
-180            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
-180-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:69:13-82
-181            android:exported="false"
-181-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:70:13-37
-182            android:label=""
-182-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:71:13-29
-183            android:theme="@style/FirebaseUI.Transparent"
-183-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:72:13-58
-184            android:windowSoftInputMode="adjustResize" />
-184-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:73:13-55
-185        <activity
-185-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:74:9-78:58
-186            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
-186-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:75:13-88
-187            android:exported="false"
-187-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:76:13-37
-188            android:label="@string/fui_sign_in_default"
-188-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:77:13-56
-189            android:windowSoftInputMode="adjustResize" />
-189-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:78:13-55
-190        <activity
-190-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:79:9-82:65
-191            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
-191-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:80:13-80
-192            android:exported="false"
-192-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:81:13-37
-193            android:label="@string/fui_default_toolbar_title" />
-193-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:82:13-62
-194        <activity
-194-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:83:9-87:48
-195            android:name="com.facebook.FacebookActivity"
-195-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:84:13-57
-196            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-196-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:85:13-96
-197            android:label="@string/app_name" />
-197-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:86:13-45
-198        <activity
-198-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:88:9-100:20
-199            android:name="com.facebook.CustomTabActivity"
-199-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:89:13-58
-200            android:exported="true" >
-200-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:90:13-36
-201            <intent-filter>
-201-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:92:13-99:29
-202                <action android:name="android.intent.action.VIEW" />
-202-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:46:17-69
-202-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:46:25-66
-203
-204                <category android:name="android.intent.category.DEFAULT" />
-204-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:48:17-76
-204-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:48:27-73
-205                <category android:name="android.intent.category.BROWSABLE" />
-205-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:49:17-78
-205-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:49:27-75
-206
-207                <data android:scheme="@string/facebook_login_protocol_scheme" />
-207-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:51:17-53:46
-207-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:53:21-43
-208            </intent-filter>
-209        </activity>
-210
-211        <provider
-211-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:102:9-106:38
-212            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
-212-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:103:13-79
-213            android:authorities="aculix.meetly.app.authuiinitprovider"
-213-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:104:13-70
-214            android:exported="false"
-214-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:105:13-37
-215            android:initOrder="90" />
-215-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:106:13-35
-216
-217        <activity
-217-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:35:9-42:20
-218            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
-218-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:36:13-64
-219            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
-219-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:37:13-115
-220            android:launchMode="singleTask"
-220-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:38:13-44
-221            android:resizeableActivity="true"
-221-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:39:13-46
-222            android:supportsPictureInPicture="true"
-222-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:40:13-52
-223            android:windowSoftInputMode="adjustResize" >
-223-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:41:13-55
-224        </activity>
-225        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-225-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:9-86
-225-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:19-83
-226
-227        <service
-227-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:45:9-51:19
-228            android:name="org.jitsi.meet.sdk.ConnectionService"
-228-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:46:13-64
-229            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
-229-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:47:13-84
-230            <intent-filter>
-230-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:48:13-50:29
-231                <action android:name="android.telecom.ConnectionService" />
-231-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:17-76
-231-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:25-73
-232            </intent-filter>
-233        </service>
-234        <service android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService" />
-234-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:9-88
-234-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:18-85
-235
-236        <activity
-236-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:23:9-25:57
-237            android:name="com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
-237-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:24:13-87
-238            android:label="@string/oss_license_title" />
-238-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:25:13-54
-239        <activity android:name="com.google.android.gms.oss.licenses.OssLicensesActivity" />
-239-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:26:9-92
-239-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:26:19-89
-240        <activity android:name="saschpe.android.customtabs.WebViewActivity" />
-240-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:28:9-79
-240-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:28:19-76
-241
-242        <meta-data
-242-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:30:9-32:36
-243            android:name="android.webkit.WebView.MetricsOptOut"
-243-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:31:13-64
-244            android:value="true" />
-244-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:32:13-33
-245
-246        <provider
-246-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:12:9-20:20
-247            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-247-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:13:13-83
-248            android:authorities="aculix.meetly.app.fileprovider"
-248-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:14:13-64
-249            android:exported="false"
-249-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:15:13-37
-250            android:grantUriPermissions="true" >
-250-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:16:13-47
-251            <meta-data
-251-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:17:13-19:63
-252                android:name="android.support.FILE_PROVIDER_PATHS"
-252-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:18:17-67
-253                android:resource="@xml/file_provider_paths" />
-253-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:19:17-60
-254        </provider>
-255        <provider
-255-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:10:9-13:40
-256            android:name="coil.util.CoilContentProvider"
-256-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:11:13-57
-257            android:authorities="aculix.meetly.app.coil"
-257-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:12:13-56
-258            android:exported="false" />
-258-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:13:13-37
-259
-260        <service
-260-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-261            android:name="androidx.room.MultiInstanceInvalidationService"
-261-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-262            android:directBootAware="true"
-262-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-263            android:exported="false" />
-263-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-264
-265        <activity
-265-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
-266            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-266-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
-267            android:excludeFromRecents="true"
-267-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
-268            android:exported="true"
-268-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
-269            android:launchMode="singleTask"
-269-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
-270            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-270-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
-271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-271-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
-272        <activity
-272-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-273            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-273-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-274            android:excludeFromRecents="true"
-274-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-275            android:exported="false"
-275-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
-276            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-276-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-277        <!--
-278            Service handling Google Sign-In user revocation. For apps that do not integrate with
-279            Google Sign-In, this service will never be started.
-280        -->
-281        <service
-281-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-282            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-282-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-283            android:exported="true"
-283-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-284            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-284-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-285
-286        <receiver
-286-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
-287            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-287-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
-288            android:enabled="true"
-288-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
-289            android:exported="false" >
-289-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
-290        </receiver>
-291
-292        <service
-292-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
-293            android:name="com.google.android.gms.measurement.AppMeasurementService"
-293-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
-294            android:enabled="true"
-294-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
-295            android:exported="false" />
-295-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
-296        <service
-296-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
-297            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-297-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
-298            android:enabled="true"
-298-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
-299            android:exported="false"
-299-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
-300            android:permission="android.permission.BIND_JOB_SERVICE" />
-300-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
-301
-302        <receiver
-302-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
-303            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-303-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
-304            android:exported="true"
-304-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
-305            android:permission="com.google.android.c2dm.permission.SEND" >
-305-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
-306            <intent-filter>
-306-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
-307                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-307-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
-307-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
-308            </intent-filter>
-309        </receiver>
-310
-311        <provider
-311-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-312            android:name="com.google.firebase.provider.FirebaseInitProvider"
-312-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-313            android:authorities="aculix.meetly.app.firebaseinitprovider"
-313-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-314            android:exported="false"
-314-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-315            android:initOrder="100" />
-315-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-316
-317        <activity
-317-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-318            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-318-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-319            android:exported="false"
-319-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-320            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-320-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-321        <activity
-321-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
-322            android:name="com.google.android.gms.ads.AdActivity"
-322-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
-323            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-323-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
-324            android:exported="false"
-324-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
-325            android:theme="@android:style/Theme.Translucent" />
-325-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
-326
-327        <provider
-327-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
-328            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-328-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
-329            android:authorities="aculix.meetly.app.mobileadsinitprovider"
-329-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
-330            android:exported="false"
-330-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
-331            android:initOrder="100" />
-331-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
-332        <provider
-332-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-333            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-333-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-334            android:authorities="aculix.meetly.app.lifecycle-process"
-334-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-335            android:exported="false"
-335-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-336            android:multiprocess="true" />
-336-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-337    </application>
-338
-339</manifest>
+49-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:16:9-67
+49-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:16:19-64
+50        <activity android:name="aculix.meetly.app.activity.VerifyEmailActivity" />
+50-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:17:9-75
+50-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:17:19-63
+51        <activity android:name="aculix.meetly.app.activity.ChangePasswordActivity" />
+51-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:18:9-69
+51-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:18:19-66
+52        <activity android:name="aculix.meetly.app.activity.ProfileActivity" >
+52-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:19:9-21:20
+52-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:19:19-59
+53        </activity>
+54        <activity android:name="aculix.meetly.app.activity.TestActivity" >
+54-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:22:9-24:20
+54-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:22:19-56
+55        </activity>
+56        <activity android:name="aculix.meetly.app.activity.LoginActivity" >
+56-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:25:9-27:20
+56-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:25:19-57
+57        </activity>
+58        <activity android:name="aculix.meetly.app.activity.RegistrationActivity" >
+58-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:28:9-30:20
+58-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:28:19-64
+59        </activity>
+60        <activity
+60-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:31:9-40:20
+61            android:name="aculix.meetly.app.activity.SplashActivity"
+61-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:32:13-52
+62            android:screenOrientation="portrait"
+62-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:33:13-49
+63            android:theme="@style/AppTheme.Splash" >
+63-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:34:13-51
+64            <intent-filter>
+64-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:35:13-39:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:36:17-69
+65-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:36:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:38:17-77
+67-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:38:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:41:9-43:52
+71            android:name="aculix.meetly.app.activity.AppIntroActivity"
+71-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:42:13-54
+72            android:screenOrientation="portrait" />
+72-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:43:13-49
+73        <activity
+73-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:44:9-46:52
+74            android:name="aculix.meetly.app.activity.AuthenticationActivity"
+74-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:45:13-60
+75            android:screenOrientation="portrait" />
+75-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:46:13-49
+76        <activity
+76-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:47:9-60:20
+77            android:name="aculix.meetly.app.activity.MainActivity"
+77-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:48:13-50
+78            android:screenOrientation="portrait" >
+78-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:49:13-49
+79            <intent-filter>
+79-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:50:13-59:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:51:17-69
+80-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:51:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:53:17-76
+82-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:53:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:54:17-78
+83-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:54:27-75
+84
+85                <data
+85-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:56:17-58:46
+86                    android:host="@string/app_deep_link_domain"
+86-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:57:21-64
+87                    android:scheme="https" />
+87-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:58:21-43
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:61:9-64:52
+91            android:name="aculix.meetly.app.activity.MeetingHistoryActivity"
+91-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:62:13-60
+92            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
+92-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:63:13-64
+93            android:screenOrientation="portrait" />
+93-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:64:13-49
+94        <activity
+94-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:65:9-68:52
+95            android:name="aculix.meetly.app.activity.FaqsActivity"
+95-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:66:13-50
+96            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
+96-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:67:13-64
+97            android:screenOrientation="portrait" /> <!-- Admob -->
+97-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:68:13-49
+98        <meta-data
+98-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:69:9-71:52
+99            android:name="com.google.android.gms.ads.APPLICATION_ID"
+99-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:70:13-69
+100            android:value="@string/admob_app_id" />
+100-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:71:13-49
+101
+102        <service
+102-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:25:9-31:19
+103            android:name="com.google.firebase.components.ComponentDiscoveryService"
+103-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:26:13-84
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:27:13-37
+106            <meta-data
+106-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:28:13-30:85
+107                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.ktx.FirebaseDynamicLinksRegistrar"
+107-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:29:17-129
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-dynamic-links-ktx:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\d8a52dac92afd70c8bbbb8b06678ec2e\jetified-firebase-dynamic-links-ktx-19.1.0\AndroidManifest.xml:30:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\7b3e6c63ee5e89a394e26217e2a2cf43\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:15:13-17:85
+110                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+110-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\7b3e6c63ee5e89a394e26217e2a2cf43\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:16:17-113
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\7b3e6c63ee5e89a394e26217e2a2cf43\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:17:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+113                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+113-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+115            <meta-data
+115-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\cbed458a665a4393557fe40318161a61\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+116                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+116-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\cbed458a665a4393557fe40318161a61\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\cbed458a665a4393557fe40318161a61\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-dynamic-links:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3b6485aa40a2e9660ebb0d301f83f0c0\jetified-firebase-dynamic-links-19.1.0\AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+119-->[com.google.firebase:firebase-dynamic-links:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3b6485aa40a2e9660ebb0d301f83f0c0\jetified-firebase-dynamic-links-19.1.0\AndroidManifest.xml:10:17-133
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-dynamic-links:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3b6485aa40a2e9660ebb0d301f83f0c0\jetified-firebase-dynamic-links-19.1.0\AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+122                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+122-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\4675ab03268f967ab18569b87d046599\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\4675ab03268f967ab18569b87d046599\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\4675ab03268f967ab18569b87d046599\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+127        </service>
+128
+129        <meta-data
+129-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:16:9-18:69
+130            android:name="com.google.android.gms.version"
+130-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:17:13-58
+131            android:value="@integer/google_play_services_version" />
+131-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:18:13-66
+132        <meta-data
+132-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:19:9-21:63
+133            android:name="com.facebook.sdk.ApplicationId"
+133-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:20:13-58
+134            android:value="@string/facebook_application_id" />
+134-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:21:13-60
+135
+136        <activity
+136-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:23:9-27:61
+137            android:name="com.firebase.ui.auth.KickoffActivity"
+137-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:24:13-64
+138            android:exported="false"
+138-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:25:13-37
+139            android:label=""
+139-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:26:13-29
+140            android:theme="@style/FirebaseUI.Transparent" />
+140-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:27:13-58
+141        <activity
+141-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:28:9-32:61
+142            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+142-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:29:13-76
+143            android:exported="false"
+143-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:30:13-37
+144            android:label=""
+144-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:31:13-29
+145            android:theme="@style/FirebaseUI.Transparent" />
+145-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:32:13-58
+146        <activity
+146-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:33:9-37:61
+147            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+147-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:34:13-86
+148            android:exported="false"
+148-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:35:13-37
+149            android:label=""
+149-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:36:13-29
+150            android:theme="@style/FirebaseUI.Transparent" />
+150-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:37:13-58
+151        <activity
+151-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:38:9-42:58
+152            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+152-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:39:13-81
+153            android:exported="false"
+153-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:40:13-37
+154            android:label="@string/fui_title_recover_password_activity"
+154-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:41:13-72
+155            android:windowSoftInputMode="adjustResize" />
+155-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:42:13-55
+156        <activity
+156-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:43:9-47:58
+157            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+157-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:44:13-71
+158            android:exported="false"
+158-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:45:13-37
+159            android:label="@string/fui_sign_in_default"
+159-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:46:13-56
+160            android:windowSoftInputMode="adjustResize" />
+160-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:47:13-55
+161        <activity
+161-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:48:9-52:77
+162            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+162-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:49:13-71
+163            android:exported="false"
+163-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:50:13-37
+164            android:label="@string/fui_sign_in_with_phone_number"
+164-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:51:13-66
+165            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+165-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:52:13-74
+166        <activity
+166-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:53:9-57:58
+167            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+167-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:54:13-76
+168            android:exported="false"
+168-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:55:13-37
+169            android:label="@string/fui_title_welcome_back_idp_prompt"
+169-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:56:13-70
+170            android:windowSoftInputMode="adjustResize" />
+170-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:57:13-55
+171        <activity
+171-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:58:9-62:58
+172            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+172-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:59:13-83
+173            android:exported="false"
+173-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:60:13-37
+174            android:label="@string/fui_title_welcome_back_password_prompt"
+174-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:61:13-75
+175            android:windowSoftInputMode="adjustResize" />
+175-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:62:13-55
+176        <activity
+176-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:63:9-67:58
+177            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+177-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:64:13-84
+178            android:exported="false"
+178-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:65:13-37
+179            android:label="@string/fui_title_welcome_back_password_prompt"
+179-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:66:13-75
+180            android:windowSoftInputMode="adjustResize" />
+180-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:67:13-55
+181        <activity
+181-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:68:9-73:58
+182            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+182-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:69:13-82
+183            android:exported="false"
+183-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:70:13-37
+184            android:label=""
+184-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:71:13-29
+185            android:theme="@style/FirebaseUI.Transparent"
+185-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:72:13-58
+186            android:windowSoftInputMode="adjustResize" />
+186-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:73:13-55
+187        <activity
+187-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:74:9-78:58
+188            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+188-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:75:13-88
+189            android:exported="false"
+189-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:76:13-37
+190            android:label="@string/fui_sign_in_default"
+190-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:77:13-56
+191            android:windowSoftInputMode="adjustResize" />
+191-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:78:13-55
+192        <activity
+192-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:79:9-82:65
+193            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+193-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:80:13-80
+194            android:exported="false"
+194-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:81:13-37
+195            android:label="@string/fui_default_toolbar_title" />
+195-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:82:13-62
+196        <activity
+196-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:83:9-87:48
+197            android:name="com.facebook.FacebookActivity"
+197-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:84:13-57
+198            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+198-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:85:13-96
+199            android:label="@string/app_name" />
+199-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:86:13-45
+200        <activity
+200-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:88:9-100:20
+201            android:name="com.facebook.CustomTabActivity"
+201-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:89:13-58
+202            android:exported="true" >
+202-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:90:13-36
+203            <intent-filter>
+203-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:92:13-99:29
+204                <action android:name="android.intent.action.VIEW" />
+204-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:51:17-69
+204-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:51:25-66
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:53:17-76
+206-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:53:27-73
+207                <category android:name="android.intent.category.BROWSABLE" />
+207-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:54:17-78
+207-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:54:27-75
+208
+209                <data android:scheme="@string/facebook_login_protocol_scheme" />
+209-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:56:17-58:46
+209-->C:\Users\Gunjan\Documents\Adroinfotech Code\livestreaming code\meetly-free-video-conferencing-meeting-app\MeetlyMainFile\Meetly\app\src\main\AndroidManifest.xml:58:21-43
+210            </intent-filter>
+211        </activity>
+212
+213        <provider
+213-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:102:9-106:38
+214            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+214-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:103:13-79
+215            android:authorities="aculix.meetly.app.authuiinitprovider"
+215-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:104:13-70
+216            android:exported="false"
+216-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:105:13-37
+217            android:initOrder="90" />
+217-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:106:13-35
+218
+219        <activity
+219-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:35:9-42:20
+220            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+220-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:36:13-64
+221            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+221-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:37:13-115
+222            android:launchMode="singleTask"
+222-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:38:13-44
+223            android:resizeableActivity="true"
+223-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:39:13-46
+224            android:supportsPictureInPicture="true"
+224-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:40:13-52
+225            android:windowSoftInputMode="adjustResize" >
+225-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:41:13-55
+226        </activity>
+227        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+227-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:9-86
+227-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:19-83
+228
+229        <service
+229-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:45:9-51:19
+230            android:name="org.jitsi.meet.sdk.ConnectionService"
+230-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:46:13-64
+231            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+231-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:47:13-84
+232            <intent-filter>
+232-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:48:13-50:29
+233                <action android:name="android.telecom.ConnectionService" />
+233-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:17-76
+233-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:25-73
+234            </intent-filter>
+235        </service>
+236        <service android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService" />
+236-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:9-88
+236-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\96de6d9ba8dea8a698a570f24e5ed1e8\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:18-85
+237
+238        <activity
+238-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:23:9-25:57
+239            android:name="com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+239-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:24:13-87
+240            android:label="@string/oss_license_title" />
+240-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:25:13-54
+241        <activity android:name="com.google.android.gms.oss.licenses.OssLicensesActivity" />
+241-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:26:9-92
+241-->[com.google.android.gms:play-services-oss-licenses:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\351375a6069782c0ec3545d3e365d628\jetified-play-services-oss-licenses-17.0.0\AndroidManifest.xml:26:19-89
+242        <activity android:name="saschpe.android.customtabs.WebViewActivity" />
+242-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:28:9-79
+242-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:28:19-76
+243
+244        <meta-data
+244-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:30:9-32:36
+245            android:name="android.webkit.WebView.MetricsOptOut"
+245-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:31:13-64
+246            android:value="true" />
+246-->[saschpe.android:customtabs:2.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\805c64db529f38a540c4f6ec618ac816\jetified-customtabs-2.0.0\AndroidManifest.xml:32:13-33
+247
+248        <provider
+248-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:12:9-20:20
+249            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+249-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:13:13-83
+250            android:authorities="aculix.meetly.app.fileprovider"
+250-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:14:13-64
+251            android:exported="false"
+251-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:15:13-37
+252            android:grantUriPermissions="true" >
+252-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:16:13-47
+253            <meta-data
+253-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:17:13-19:63
+254                android:name="android.support.FILE_PROVIDER_PATHS"
+254-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:18:17-67
+255                android:resource="@xml/file_provider_paths" />
+255-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:19:17-60
+256        </provider>
+257        <provider
+257-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:10:9-13:40
+258            android:name="coil.util.CoilContentProvider"
+258-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:11:13-57
+259            android:authorities="aculix.meetly.app.coil"
+259-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:12:13-56
+260            android:exported="false" />
+260-->[io.coil-kt:coil:0.10.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\ad517bc655c7a37176a2221463297196\jetified-coil-0.10.0\AndroidManifest.xml:13:13-37
+261
+262        <service
+262-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+263            android:name="androidx.room.MultiInstanceInvalidationService"
+263-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+264            android:directBootAware="true"
+264-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+265            android:exported="false" />
+265-->[androidx.room:room-runtime:2.2.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\722d303730abe6bf8099eb52a6ceedc1\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+266
+267        <activity
+267-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+268            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+268-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+269            android:excludeFromRecents="true"
+269-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+270            android:exported="true"
+270-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+271            android:launchMode="singleTask"
+271-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+272            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+272-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+273            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+273-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\0b99ce4b4fb351a9d588bd17fd6fa342\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+274        <activity
+274-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+275            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+275-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+276            android:excludeFromRecents="true"
+276-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+277            android:exported="false"
+277-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+278            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+278-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+279        <!--
+280            Service handling Google Sign-In user revocation. For apps that do not integrate with
+281            Google Sign-In, this service will never be started.
+282        -->
+283        <service
+283-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+284            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+284-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+285            android:exported="true"
+285-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+286            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+286-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\2a28b3e1d34944ee9a465f4dc48bd65c\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+287
+288        <receiver
+288-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+289            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+289-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+290            android:enabled="true"
+290-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+291            android:exported="false" >
+291-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+292        </receiver>
+293
+294        <service
+294-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+295            android:name="com.google.android.gms.measurement.AppMeasurementService"
+295-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+296            android:enabled="true"
+296-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+297            android:exported="false" />
+297-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+298        <service
+298-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+299            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+299-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+300            android:enabled="true"
+300-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+302            android:permission="android.permission.BIND_JOB_SERVICE" />
+302-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\5d8f5082e273f565964b6d37daeefa85\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+303
+304        <receiver
+304-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+305            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+305-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+306            android:exported="true"
+306-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+307            android:permission="com.google.android.c2dm.permission.SEND" >
+307-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+308            <intent-filter>
+308-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+309                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+309-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+309-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\de84e9a0c49ef8dd840322bd096963f4\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+310            </intent-filter>
+311        </receiver>
+312
+313        <provider
+313-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+314            android:name="com.google.firebase.provider.FirebaseInitProvider"
+314-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+315            android:authorities="aculix.meetly.app.firebaseinitprovider"
+315-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+316            android:exported="false"
+316-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+317            android:initOrder="100" />
+317-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\204a483f8ca5ed66c6e375e61454c3b3\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+318
+319        <activity
+319-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+320            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+320-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+321            android:exported="false"
+321-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+322            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+322-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\3646f10eaea2bdd1dd4663d8175de746\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+323        <activity
+323-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+324            android:name="com.google.android.gms.ads.AdActivity"
+324-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+325            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+325-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+326            android:exported="false"
+326-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+327            android:theme="@android:style/Theme.Translucent" />
+327-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+328
+329        <provider
+329-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+330            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+330-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+331            android:authorities="aculix.meetly.app.mobileadsinitprovider"
+331-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+332            android:exported="false"
+332-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+333            android:initOrder="100" />
+333-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\f8364d7275f0195d5c3c616f4228c9ae\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+334        <provider
+334-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+335            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+335-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+336            android:authorities="aculix.meetly.app.lifecycle-process"
+336-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+337            android:exported="false"
+337-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+338            android:multiprocess="true" />
+338-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gunjan\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+339    </application>
+340
+341</manifest>

@@ -14,4 +14,6 @@
 
     <color name="splashBgColor">#1976D2</color>
     <color name="dividerColor">#E0E0E0</color>
+    <color name="bgcolor">#596856</color>
+    <color name="spinner_txt_color">#666666</color>
 </resources>
