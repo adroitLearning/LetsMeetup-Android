@@ -94,7 +94,7 @@
 
 
 
-    <com.google.android.material.switchmaterial.SwitchMaterial
+  <!--  <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/switchDarkMode"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -104,7 +104,23 @@
         android:textSize="@dimen/text_size_s"
         app:layout_constraintEnd_toEndOf="@id/glEnd"
         app:layout_constraintStart_toStartOf="@id/glStart"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" />-->
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_app_nme"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_size_m"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/glEnd"
+        app:layout_constraintStart_toStartOf="@id/glStart"
+        tools:ignore="MissingConstraints"
+        />
 
     <View
         android:id="@+id/dividerDarkMode"
@@ -114,7 +130,7 @@
         android:background="@color/dividerColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switchDarkMode" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_app_nme" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvProfile"
@@ -161,6 +177,28 @@
         app:layout_constraintTop_toBottomOf="@+id/tvRateApp" />
 
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvFAQ"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_question_answer_24"
+        style="@style/ClickableTextViewProfileDialog"
+        android:text="@string/faq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSettings" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTermsandCondn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_email"
+        style="@style/ClickableTextViewProfileDialog"
+        android:text="@string/terms_conditions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFAQ" />
+
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvPushNotification"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -169,7 +207,7 @@
         android:text="@string/push_notification"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSettings" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTermsandCondn" />
 
    <!-- <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvOpenSourceLicenses"

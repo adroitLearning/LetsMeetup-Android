@@ -51,14 +51,14 @@ class MeetingHistoryActivity : AppCompatActivity() {
         binding = ActivityMeetingHistoryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setupToolbar()
-        setupRecyclerView(savedInstanceState)
-        setupObservables()
+    //    setupToolbar()
+       // setupRecyclerView(savedInstanceState)
+      //  setupObservables()
 
-        if (Meetly.isAdEnabled) setupBannerAd() else binding.adViewContainer.makeGone()
+       // if (Meetly.isAdEnabled) setupBannerAd() else binding.adViewContainer.makeGone()
     }
 
-    override fun onSaveInstanceState(_outState: Bundle) {
+   /* override fun onSaveInstanceState(_outState: Bundle) {
         var outState = _outState
         outState = meetingHistoryAdapter.saveInstanceState(outState)
         super.onSaveInstanceState(outState)
@@ -84,8 +84,8 @@ class MeetingHistoryActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
     }
-
-    private fun setupRecyclerView(savedInstanceState: Bundle?) {
+*/
+/*    private fun setupRecyclerView(savedInstanceState: Bundle?) {
         meetingHistoryAdapter = FastItemAdapter()
         meetingHistoryAdapter.setHasStableIds(true)
         meetingHistoryAdapter.withSavedInstanceState(savedInstanceState)
@@ -95,9 +95,9 @@ class MeetingHistoryActivity : AppCompatActivity() {
 
         onMeetingCodeClick()
         onRejoinClick()
-    }
+    }*/
 
-    private fun setupObservables() {
+   /* private fun setupObservables() {
         viewModel.meetingHistoryLiveData.observe(this, Observer { meetingHistoryList ->
             val meetingHistoryItems = ArrayList<MeetingHistoryItem>()
 
@@ -112,9 +112,9 @@ class MeetingHistoryActivity : AppCompatActivity() {
 
     private fun showEmptyState(itemCount: Int) {
         if (itemCount > 0) binding.groupEmpty.makeGone() else binding.groupEmpty.makeVisible()
-    }
+    }*/
 
-    private fun setupBannerAd() {
+   /* private fun setupBannerAd() {
         adView = AdView(this)
         binding.adViewContainer.addView(adView)
         binding.adViewContainer.viewTreeObserver.addOnGlobalLayoutListener {
@@ -126,12 +126,12 @@ class MeetingHistoryActivity : AppCompatActivity() {
                 adView.loadAd(AdRequest.Builder().build())
             }
         }
-    }
+    }*/
 
     /**
      * Returns the size of the Adaptive Banner Ad based on the screen width
      */
-    private fun getAdaptiveBannerAdSize(adViewContainer: FrameLayout): AdSize {
+/*    private fun getAdaptiveBannerAdSize(adViewContainer: FrameLayout): AdSize {
         val display = windowManager.defaultDisplay
         val outMetrics = DisplayMetrics()
         display.getMetrics(outMetrics)
@@ -145,12 +145,12 @@ class MeetingHistoryActivity : AppCompatActivity() {
 
         val adWidth = (adWidthPixels / density).toInt()
         return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(this, adWidth)
-    }
+    }*/
 
     /**
      * Called when the meeting code is clicked of a RecyclerView Item
      */
-    private fun onMeetingCodeClick() {
+   /* private fun onMeetingCodeClick() {
         meetingHistoryAdapter.addEventHook(object : ClickEventHook<MeetingHistoryItem>() {
             override fun onBind(viewHolder: RecyclerView.ViewHolder): View? {
                 return viewHolder.itemView.tvMeetingCode
@@ -170,9 +170,9 @@ class MeetingHistoryActivity : AppCompatActivity() {
         })
     }
 
-    /**
+    *//**
      * Called when the Rejoin button is clicked of a RecyclerView Item
-     */
+     *//*
     private fun onRejoinClick() {
         meetingHistoryAdapter.addEventHook(object : ClickEventHook<MeetingHistoryItem>() {
             override fun onBind(viewHolder: RecyclerView.ViewHolder): View? {
@@ -199,5 +199,5 @@ class MeetingHistoryActivity : AppCompatActivity() {
                 ) // Add meeting to db
             }
         })
-    }
+    }*/
 }

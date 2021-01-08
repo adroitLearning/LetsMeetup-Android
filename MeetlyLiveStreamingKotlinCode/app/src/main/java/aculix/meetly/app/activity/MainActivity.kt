@@ -13,6 +13,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -26,6 +27,7 @@ import com.afollestad.materialdialogs.customview.customView
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
+import com.google.android.gms.tasks.OnFailureListener
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
@@ -35,6 +37,7 @@ import com.google.firebase.dynamiclinks.ktx.dynamicLinks
 import com.google.firebase.dynamiclinks.ktx.navigationInfoParameters
 import com.google.firebase.dynamiclinks.ktx.shortLinkAsync
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -64,17 +67,16 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         currentUser = FirebaseAuth.getInstance().currentUser
         setProfileIcon()
 
-        // Load ads based on configuration
+      /*  // Load ads based on configuration
         if (Meetly.isAdEnabled) {
             initializeCreateMeetingInterstitialAd()
             loadCreateMeetingInterstitialAd()
             initializeJoinMeetingInterstitialAd()
             loadJoinMeetingInterstitialAd()
-        }
+        }*/
 
         handleDynamicLink()
 
@@ -175,7 +177,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun initializeCreateMeetingInterstitialAd() {
+ /*   private fun initializeCreateMeetingInterstitialAd() {
         createMeetingInterstitialAd = InterstitialAd(this)
         createMeetingInterstitialAd.adUnitId = getString(R.string.interstitial_ad_id_create_meeting)
 
@@ -207,7 +209,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadJoinMeetingInterstitialAd() {
         joinMeetingInterstitialAd.loadAd(AdRequest.Builder().build())
-    }
+    }*/
 
     private fun handleDynamicLink() {
         Firebase.dynamicLinks
@@ -301,7 +303,10 @@ class MainActivity : AppCompatActivity() {
                             getString(R.string.main_share_meeting_code_title),
                             getString(R.string.main_share_meeting_code_desc, shortDynamicLink)
                     )
-                }.addOnFailureListener {
+                }.addOnFailureListener{ Exception ->
+                    val data = Exception.printStackTrace()
+
+                    //Log.e("TAG", "Error requesting connection", data);
                     toast(getString(R.string.main_error_create_dynamic_link))
                 }
             } else {
@@ -318,7 +323,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnJoinMeeting.setOnClickListener {
             if (isMeetingCodeValid(getJoinMeetingCode())) {
                 if (Meetly.isAdEnabled) {
-                    if (joinMeetingInterstitialAd.isLoaded) joinMeetingInterstitialAd.show() else joinMeeting(
+                   /* if (joinMeetingInterstitialAd.isLoaded) joinMeetingInterstitialAd.show()
+                    else*/
+                        joinMeeting(
                             getJoinMeetingCode()
                     )
                 } else {
@@ -347,7 +354,7 @@ class MainActivity : AppCompatActivity() {
      * Returns the meeting code for joining the meeting
      */
     private fun getJoinMeetingCode() =
-        binding.etCodeJoinMeeting.text.toString().trim().replace(" ", "")
+        etCodeJoinMeeting.text.toString().trim().replace(" ", "")
 
     /**
      * Called when the CREATE button is clicked of the CREATE MEETING toggle
@@ -482,10 +489,10 @@ class MainActivity : AppCompatActivity() {
 
                 // Share app onClick
                 tvSettings.setOnClickListener {
-                    /*    startShareTextIntent(
+                         startShareTextIntent(
                                 getString(R.string.profile_share_app_title),
                                 getString(R.string.profile_share_app_text, applicationContext.packageName)
-                        )*/
+                        )
                 }
 
                 // FAQs onClick

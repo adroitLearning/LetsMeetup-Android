@@ -92,7 +92,7 @@ class AuthenticationActivity : AppCompatActivity() {
 
     private fun onSkipClick() {
         binding.chipSkip.setOnClickListener {
-            MainActivity.startActivity(this)
+            TestActivity.startActivity(this)
             finish()
         }
     }

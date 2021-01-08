@@ -5,12 +5,12 @@ import aculix.meetly.app.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
-import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.google.android.material.textview.MaterialTextView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -33,7 +33,10 @@ public final class DialogProfileBinding implements ViewBinding {
   public final Guideline glStart;
 
   @NonNull
-  public final SwitchMaterial switchDarkMode;
+  public final TextView tvAppNme;
+
+  @NonNull
+  public final MaterialTextView tvFAQ;
 
   @NonNull
   public final MaterialTextView tvProfile;
@@ -50,22 +53,28 @@ public final class DialogProfileBinding implements ViewBinding {
   @NonNull
   public final MaterialTextView tvSettings;
 
+  @NonNull
+  public final MaterialTextView tvTermsandCondn;
+
   private DialogProfileBinding(@NonNull ConstraintLayout rootView, @NonNull View dividerDarkMode,
       @NonNull View dividerOpenSourceLicenses, @NonNull Guideline glEnd, @NonNull Guideline glStart,
-      @NonNull SwitchMaterial switchDarkMode, @NonNull MaterialTextView tvProfile,
-      @NonNull MaterialTextView tvPushNotification, @NonNull MaterialTextView tvRateApp,
-      @NonNull MaterialTextView tvSendFeedback, @NonNull MaterialTextView tvSettings) {
+      @NonNull TextView tvAppNme, @NonNull MaterialTextView tvFAQ,
+      @NonNull MaterialTextView tvProfile, @NonNull MaterialTextView tvPushNotification,
+      @NonNull MaterialTextView tvRateApp, @NonNull MaterialTextView tvSendFeedback,
+      @NonNull MaterialTextView tvSettings, @NonNull MaterialTextView tvTermsandCondn) {
     this.rootView = rootView;
     this.dividerDarkMode = dividerDarkMode;
     this.dividerOpenSourceLicenses = dividerOpenSourceLicenses;
     this.glEnd = glEnd;
     this.glStart = glStart;
-    this.switchDarkMode = switchDarkMode;
+    this.tvAppNme = tvAppNme;
+    this.tvFAQ = tvFAQ;
     this.tvProfile = tvProfile;
     this.tvPushNotification = tvPushNotification;
     this.tvRateApp = tvRateApp;
     this.tvSendFeedback = tvSendFeedback;
     this.tvSettings = tvSettings;
+    this.tvTermsandCondn = tvTermsandCondn;
   }
 
   @Override
@@ -119,9 +128,15 @@ public final class DialogProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.switchDarkMode;
-      SwitchMaterial switchDarkMode = rootView.findViewById(id);
-      if (switchDarkMode == null) {
+      id = R.id.tv_app_nme;
+      TextView tvAppNme = rootView.findViewById(id);
+      if (tvAppNme == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFAQ;
+      MaterialTextView tvFAQ = rootView.findViewById(id);
+      if (tvFAQ == null) {
         break missingId;
       }
 
@@ -155,9 +170,15 @@ public final class DialogProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvTermsandCondn;
+      MaterialTextView tvTermsandCondn = rootView.findViewById(id);
+      if (tvTermsandCondn == null) {
+        break missingId;
+      }
+
       return new DialogProfileBinding((ConstraintLayout) rootView, dividerDarkMode,
-          dividerOpenSourceLicenses, glEnd, glStart, switchDarkMode, tvProfile, tvPushNotification,
-          tvRateApp, tvSendFeedback, tvSettings);
+          dividerOpenSourceLicenses, glEnd, glStart, tvAppNme, tvFAQ, tvProfile, tvPushNotification,
+          tvRateApp, tvSendFeedback, tvSettings, tvTermsandCondn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

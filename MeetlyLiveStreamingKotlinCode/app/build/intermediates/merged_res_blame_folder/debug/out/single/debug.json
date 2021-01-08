@@ -4,24 +4,24 @@
         "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_license_metadata.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_license_metadata"
     },
     {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
         "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_license_metadata.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_license_metadata"
-    },
-    {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\menu\\navigation_menu.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_faqs.xml.flat",
         "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\activity_faqs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\menu\\navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -214,6 +214,10 @@
     {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_history.xml.flat",
         "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_question_answer_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\drawable\\ic_baseline_question_answer_24.xml"
     },
     {
         "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_splash.xml.flat",

@@ -21,13 +21,13 @@ class Meetly : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        isAdEnabled = resources.getBoolean(R.bool.enable_ads)
+      //  isAdEnabled = resources.getBoolean(R.bool.enable_ads)
 
         initializeKotPref()
         setThemeMode()
         initializeKoin()
 
-        if (isAdEnabled) initializeAdmob()
+        //if (isAdEnabled) initializeAdmob()
     }
 
     private fun initializeKotPref() {
@@ -56,12 +56,12 @@ class Meetly : Application() {
         }
     }
 
-    private fun initializeAdmob() {
+   /* private fun initializeAdmob() {
         MobileAds.initialize(this) {
             val testDeviceIds = listOf("7BD04413716C0B3DD5C73F814E02D21A")
             val configuration =
                 RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
             MobileAds.setRequestConfiguration(configuration)
         }
-    }
+    }*/
 }

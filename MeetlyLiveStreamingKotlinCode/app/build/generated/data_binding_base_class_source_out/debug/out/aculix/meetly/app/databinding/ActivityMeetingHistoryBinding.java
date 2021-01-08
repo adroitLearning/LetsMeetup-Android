@@ -5,16 +5,11 @@ import aculix.meetly.app.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.Group;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.textview.MaterialTextView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,34 +19,12 @@ public final class ActivityMeetingHistoryBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final FrameLayout adViewContainer;
-
-  @NonNull
-  public final Group groupEmpty;
-
-  @NonNull
-  public final AppCompatImageView ivEmpty;
-
-  @NonNull
-  public final RecyclerView recyclerView;
-
-  @NonNull
   public final MaterialToolbar toolbar;
 
-  @NonNull
-  public final MaterialTextView tvEmpty;
-
   private ActivityMeetingHistoryBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FrameLayout adViewContainer, @NonNull Group groupEmpty,
-      @NonNull AppCompatImageView ivEmpty, @NonNull RecyclerView recyclerView,
-      @NonNull MaterialToolbar toolbar, @NonNull MaterialTextView tvEmpty) {
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
-    this.adViewContainer = adViewContainer;
-    this.groupEmpty = groupEmpty;
-    this.ivEmpty = ivEmpty;
-    this.recyclerView = recyclerView;
     this.toolbar = toolbar;
-    this.tvEmpty = tvEmpty;
   }
 
   @Override
@@ -81,44 +54,13 @@ public final class ActivityMeetingHistoryBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.adViewContainer;
-      FrameLayout adViewContainer = rootView.findViewById(id);
-      if (adViewContainer == null) {
-        break missingId;
-      }
-
-      id = R.id.groupEmpty;
-      Group groupEmpty = rootView.findViewById(id);
-      if (groupEmpty == null) {
-        break missingId;
-      }
-
-      id = R.id.ivEmpty;
-      AppCompatImageView ivEmpty = rootView.findViewById(id);
-      if (ivEmpty == null) {
-        break missingId;
-      }
-
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = rootView.findViewById(id);
-      if (recyclerView == null) {
-        break missingId;
-      }
-
       id = R.id.toolbar;
       MaterialToolbar toolbar = rootView.findViewById(id);
       if (toolbar == null) {
         break missingId;
       }
 
-      id = R.id.tvEmpty;
-      MaterialTextView tvEmpty = rootView.findViewById(id);
-      if (tvEmpty == null) {
-        break missingId;
-      }
-
-      return new ActivityMeetingHistoryBinding((ConstraintLayout) rootView, adViewContainer,
-          groupEmpty, ivEmpty, recyclerView, toolbar, tvEmpty);
+      return new ActivityMeetingHistoryBinding((ConstraintLayout) rootView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

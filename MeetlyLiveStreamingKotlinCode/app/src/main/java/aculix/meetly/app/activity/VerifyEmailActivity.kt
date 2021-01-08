@@ -69,7 +69,7 @@ class VerifyEmailActivity : AppCompatActivity() {
 
                         Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
 
-                        MainActivity.startActivity(this@VerifyEmailActivity)
+                        TestActivity.startActivity(this@VerifyEmailActivity)
                      /*   val intent = Intent(this@VerifyEmailActivity,MainActivity::class.java)
                         startActivity(intent)*/
                     }

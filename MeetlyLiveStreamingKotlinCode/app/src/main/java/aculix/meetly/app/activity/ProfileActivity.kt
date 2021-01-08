@@ -154,8 +154,7 @@ class ProfileActivity : AppCompatActivity() {
                         ).show()
 
                         val intent = Intent(
-                                this@ProfileActivity,
-                                AuthenticationActivity::class.java
+                                this@ProfileActivity, TestActivity::class.java
                         )
                         startActivity(intent)
                     }

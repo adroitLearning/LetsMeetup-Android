@@ -93,7 +93,7 @@ class LoginActivity : AppCompatActivity() {
                         login.isEnabled = true
                         Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
 
-                        MainActivity.startActivity(this@LoginActivity)
+                        TestActivity.startActivity(this@LoginActivity)
                     }
                 })
 

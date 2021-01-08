@@ -1765,6 +1765,7 @@ drawable ic_appintro_ripple
 drawable ic_appintro_skip
 drawable ic_baseline_create_24
 drawable ic_baseline_email_24
+drawable ic_baseline_question_answer_24
 drawable ic_baseline_remove_red_eye_24
 drawable ic_calendar_black_24dp
 drawable ic_chat
@@ -1918,7 +1919,6 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
-id adViewContainer
 id add
 id adjust_height
 id adjust_width
@@ -2106,7 +2106,6 @@ id gone
 id graph
 id graph_wrap
 id groupCreateMeeting
-id groupEmpty
 id groupJoinMeeting
 id group_divider
 id groups
@@ -2127,7 +2126,6 @@ id ignoreRequest
 id image
 id imageView
 id imgSiteLogo
-id img_changepwd
 id include
 id indicator_container
 id info
@@ -2136,7 +2134,6 @@ id invisible_frame
 id italic
 id item_touch_helper_previous_elevation
 id ivCreateMeeting
-id ivEmpty
 id ivJoinMeeting
 id ivLogo
 id ivMeetingHistory
@@ -2163,6 +2160,7 @@ id literal
 id login
 id logo
 id main
+id main_linear_layout
 id main_tos_and_pp
 id masked
 id md_button_layout
@@ -2349,7 +2347,6 @@ id submenuarrow
 id submit
 id submit_area
 id submit_profile
-id switchDarkMode
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2403,7 +2400,7 @@ id trouble_signing_in_possible_fixes
 id tvAppName
 id tvAppTagline
 id tvDescription
-id tvEmpty
+id tvFAQ
 id tvMeetingCode
 id tvMeetingTime
 id tvProfile
@@ -2411,7 +2408,9 @@ id tvPushNotification
 id tvRateApp
 id tvSendFeedback
 id tvSettings
+id tvTermsandCondn
 id tvTitle
+id tv_app_nme
 id tv_edt_otp
 id tv_signup
 id tv_time
@@ -2799,7 +2798,6 @@ string appbar_scrolling_view_behavior
 string authentication_login_canceled
 string authentication_sign_in_email
 string authentication_sign_in_google
-string banner_ad_id_meeting_history
 string bottom_sheet_behavior
 string catalyst_change_bundle_location
 string catalyst_copy_button
@@ -2875,6 +2873,7 @@ string facebook_login_protocol_scheme
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string faq
 string faqs_custom_meeting_code_desc
 string faqs_custom_meeting_code_title
 string faqs_end_meeting_desc
@@ -2992,8 +2991,6 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string image_description
 string imagebutton_description
-string interstitial_ad_id_create_meeting
-string interstitial_ad_id_join_meeting
 string library_fastadapter_author
 string library_fastadapter_authorWebsite
 string library_fastadapter_isOpenSource
@@ -3021,6 +3018,7 @@ string main_error_create_dynamic_link
 string main_error_fetch_dynamic_link
 string main_error_meeting_code_length
 string main_join_meeting
+string main_join_with_code
 string main_meeting_code
 string main_meeting_code_copied
 string main_share_meeting_code_desc
@@ -3075,6 +3073,7 @@ string notification
 string old_password
 string ongoing_notification_text
 string ongoing_notification_title
+string or
 string oss_license_title
 string passowrd
 string password
