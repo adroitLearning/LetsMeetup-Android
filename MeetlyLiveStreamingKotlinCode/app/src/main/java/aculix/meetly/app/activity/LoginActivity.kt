@@ -9,11 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log
 import android.view.View
-import android.widget.EditText
 import android.widget.Toast
-import com.afollestad.materialdialogs.utils.MDUtil.getStringArray
 /*
 import com.android.volley.AuthFailureError
 import com.android.volley.Request
@@ -24,8 +21,6 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley*/
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_registration.*
-import org.json.JSONException
-import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -42,13 +37,14 @@ class LoginActivity : AppCompatActivity() {
 
    // private var requestQueue: RequestQueue? = null
     val TAG = "Handy Opinion Tutorials"
-   // var volleyRequestQueue: RequestQueue? = null
+
+    // var volleyRequestQueue: RequestQueue? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-     //   requestQueue = Volley.newRequestQueue(this)
+        //   requestQueue = Volley.newRequestQueue(this)
 
          // val edt_login = findViewById(R.id.edt_logindata) as EditText
 
@@ -93,7 +89,13 @@ class LoginActivity : AppCompatActivity() {
                         login.isEnabled = true
                         Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
 
-                        TestActivity.startActivity(this@LoginActivity)
+                        //shared preference
+                        val sharedPreference =  getSharedPreferences("PREFERENCE_NAME", Context.MODE_PRIVATE)
+                        var editor = sharedPreference.edit()
+                        editor.putString("islogged_in","true")
+                        editor.commit()
+
+                        MainActivity.startActivity(this@LoginActivity)
                     }
                 })
 

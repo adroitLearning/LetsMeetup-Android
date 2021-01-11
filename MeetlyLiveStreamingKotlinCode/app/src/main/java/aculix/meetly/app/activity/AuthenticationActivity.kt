@@ -1,7 +1,5 @@
 package aculix.meetly.app.activity
 
-import aculix.core.extensions.makeGone
-import aculix.core.extensions.makeVisible
 import aculix.core.extensions.toast
 import aculix.meetly.app.R
 import aculix.meetly.app.databinding.ActivityAuthenticationBinding
@@ -32,7 +30,7 @@ class AuthenticationActivity : AppCompatActivity() {
         binding = ActivityAuthenticationBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        showSkipSignIn()
+   //     showSkipSignIn()
 
         onSignInWithGoogleClick()
         onSignInWithEmailClick()
@@ -73,10 +71,10 @@ class AuthenticationActivity : AppCompatActivity() {
     /**
      * Sets the visibility of the chipSkip based on the mandatory authentication configuration
      */
-    private fun showSkipSignIn() {
+   /* private fun showSkipSignIn() {
         if (resources.getBoolean(R.bool.enable_mandatory_authentication))
             binding.chipSkip.makeGone() else binding.chipSkip.makeVisible()
-    }
+    }*/
 
     private fun onSignInWithGoogleClick() {
         binding.btnSignInGoogle.setOnClickListener {
@@ -92,7 +90,7 @@ class AuthenticationActivity : AppCompatActivity() {
 
     private fun onSkipClick() {
         binding.chipSkip.setOnClickListener {
-            TestActivity.startActivity(this)
+            MainActivity.startActivity(this)
             finish()
         }
     }

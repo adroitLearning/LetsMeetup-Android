@@ -26,6 +26,9 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Spinner Spinner;
+
+  @NonNull
   public final Button btnSubmit;
 
   @NonNull
@@ -68,22 +71,17 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   public final LinearLayout linearLayout;
 
   @NonNull
-  public final Spinner spinner;
-
-  @NonNull
   public final TextView toolbarTitle;
 
-  @NonNull
-  public final TextView txtView;
-
-  private ActivityRegistrationBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnSubmit,
-      @NonNull EditText edtConfirmPwd, @NonNull TextInputLayout edtEmail,
+  private ActivityRegistrationBinding(@NonNull ConstraintLayout rootView, @NonNull Spinner Spinner,
+      @NonNull Button btnSubmit, @NonNull EditText edtConfirmPwd, @NonNull TextInputLayout edtEmail,
       @NonNull TextInputLayout edtMobile, @NonNull TextInputLayout edtName,
       @NonNull EditText edtPwd, @NonNull TextInputLayout etConfirmPwd, @NonNull EditText etEmail,
       @NonNull EditText etMobile, @NonNull TextInputLayout etPwd, @NonNull EditText etUserName,
       @NonNull ImageView imageView, @NonNull Toolbar include, @NonNull LinearLayout linearLayout,
-      @NonNull Spinner spinner, @NonNull TextView toolbarTitle, @NonNull TextView txtView) {
+      @NonNull TextView toolbarTitle) {
     this.rootView = rootView;
+    this.Spinner = Spinner;
     this.btnSubmit = btnSubmit;
     this.edtConfirmPwd = edtConfirmPwd;
     this.edtEmail = edtEmail;
@@ -98,9 +96,7 @@ public final class ActivityRegistrationBinding implements ViewBinding {
     this.imageView = imageView;
     this.include = include;
     this.linearLayout = linearLayout;
-    this.spinner = spinner;
     this.toolbarTitle = toolbarTitle;
-    this.txtView = txtView;
   }
 
   @Override
@@ -130,6 +126,12 @@ public final class ActivityRegistrationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Spinner;
+      Spinner Spinner = rootView.findViewById(id);
+      if (Spinner == null) {
+        break missingId;
+      }
+
       id = R.id.btn_submit;
       Button btnSubmit = rootView.findViewById(id);
       if (btnSubmit == null) {
@@ -208,15 +210,9 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linear_layout;
+      id = R.id.linearLayout;
       LinearLayout linearLayout = rootView.findViewById(id);
       if (linearLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.spinner;
-      Spinner spinner = rootView.findViewById(id);
-      if (spinner == null) {
         break missingId;
       }
 
@@ -226,15 +222,9 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txtView;
-      TextView txtView = rootView.findViewById(id);
-      if (txtView == null) {
-        break missingId;
-      }
-
-      return new ActivityRegistrationBinding((ConstraintLayout) rootView, btnSubmit, edtConfirmPwd,
-          edtEmail, edtMobile, edtName, edtPwd, etConfirmPwd, etEmail, etMobile, etPwd, etUserName,
-          imageView, include, linearLayout, spinner, toolbarTitle, txtView);
+      return new ActivityRegistrationBinding((ConstraintLayout) rootView, Spinner, btnSubmit,
+          edtConfirmPwd, edtEmail, edtMobile, edtName, edtPwd, etConfirmPwd, etEmail, etMobile,
+          etPwd, etUserName, imageView, include, linearLayout, toolbarTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

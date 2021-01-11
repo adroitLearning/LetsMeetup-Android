@@ -5,7 +5,6 @@ import aculix.meetly.app.databinding.ItemMeetingHistoryBinding
 import aculix.meetly.app.model.Meeting
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import com.github.marlonlom.utilities.timeago.TimeAgo
 import com.mikepenz.fastadapter.binding.AbstractBindingItem
 
@@ -30,7 +29,6 @@ class MeetingHistoryItem(val meeting: Meeting) :
                 TimeAgo.using(meeting.timeInMillis)
             )
         }
-
     }
 
     override fun unbindView(binding: ItemMeetingHistoryBinding) {

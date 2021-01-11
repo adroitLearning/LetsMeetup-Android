@@ -1,33 +1,14 @@
 package aculix.meetly.app.activity
 
-import aculix.core.extensions.copyTextToClipboard
-import aculix.core.extensions.makeGone
-import aculix.core.extensions.makeVisible
-import aculix.meetly.app.Meetly
-import aculix.meetly.app.R
 import aculix.meetly.app.adapteritem.MeetingHistoryItem
 import aculix.meetly.app.databinding.ActivityMeetingHistoryBinding
-import aculix.meetly.app.model.Meeting
-import aculix.meetly.app.utils.MeetingUtils
 import aculix.meetly.app.viewmodel.MeetingHistoryViewModel
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.util.DisplayMetrics
-import android.view.View
-import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
-import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.adapters.FastItemAdapter
-import com.mikepenz.fastadapter.diff.FastAdapterDiffUtil
-import com.mikepenz.fastadapter.listeners.ClickEventHook
-import kotlinx.android.synthetic.main.item_meeting_history.view.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MeetingHistoryActivity : AppCompatActivity() {

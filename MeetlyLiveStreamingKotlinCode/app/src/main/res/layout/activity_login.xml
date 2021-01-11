@@ -26,12 +26,11 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/include">
 
         <LinearLayout
@@ -63,7 +62,7 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginRight="16dp"
                     android:hint="@string/user_name"
-                    app:endIconMode="clear_text"
+
                     app:errorEnabled="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +76,9 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat"
                         android:inputType="textPersonName"
-                        />
+                        android:singleLine="true"
+                        android:digits="qwertyuiopasdfghjklzxcvbnm !@#$%^*/_-\1234567890 QWERTYUIOPASDFGHJKLZXCVBNM" />
+
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -93,11 +94,14 @@
                     android:layout_marginRight="16dp"
                     android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
                     android:hint="@string/passowrd"
-                    app:endIconMode="clear_text"
+                    app:endIconMode="password_toggle"
                     app:errorEnabled="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/edt_name"
+                    app:passwordToggleEnabled="true"
+                    app:endIconDrawable="@drawable/ic_baseline_remove_red_eye_24"
+                    app:endIconTint="@color/colorPrimaryDark"
                     app:startIconDrawable="@drawable/ic_baseline_email_24"
                     app:startIconTint="@color/colorPrimaryDark">
 
@@ -106,6 +110,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat"
+                        android:singleLine="true"
+                        android:digits="qwertyuiopasdfghjklzxcvbnm !@#$%^*/_-\1234567890 QWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:imeOptions="actionDone"
                         />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -125,7 +132,7 @@
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/edt_passwordd"
                     app:layout_constraintTop_toBottomOf="@+id/edt_passwordd"
-                    android:textColor="@color/faintgraycolor"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="15dp"
                     tools:ignore="MissingConstraints" />
 
@@ -161,13 +168,23 @@
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/login"
                     app:layout_constraintTop_toBottomOf="@+id/login"
-                    android:textColor="@color/faintgraycolor"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="15dp"
                     tools:ignore="MissingConstraints" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 
-    </ScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/powered_by"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="130dp"
+            android:textSize="10sp"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

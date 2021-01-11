@@ -1,44 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\values-night\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "216"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3117",
-                        "endLines": "36",
-                        "endColumns": "12",
-                        "endOffsets": "3277"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\values-night\\colors.xml",
-                    "from": {
-                        "startLines": "7,6,2,3,5,9",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "250,201,55,102,154,300",
-                        "endColumns": "48,48,46,50,46,46",
-                        "endOffsets": "294,245,97,148,196,342"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "106,155,204,251,302,349",
-                        "endColumns": "48,48,46,50,46,46",
-                        "endOffsets": "150,199,246,297,344,391"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\3af21c826e2d56b01ce398e41f9aff3a\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -54,6 +18,16 @@
                         "startOffsets": "396,466,550,634,730,832,934,2890",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "461,545,629,725,827,929,1023,2974"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\values-night\\config.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
                     }
                 },
                 {
@@ -74,13 +48,39 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\Meetly\\app\\src\\main\\res\\values-night\\config.xml",
+                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "50",
-                        "endOffsets": "101"
+                        "startOffsets": "56",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "216"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3117",
+                        "endLines": "36",
+                        "endColumns": "12",
+                        "endOffsets": "3277"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "7,6,2,3,5,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "250,201,55,102,154,300",
+                        "endColumns": "48,48,46,50,46,46",
+                        "endOffsets": "294,245,97,148,196,342"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "106,155,204,251,302,349",
+                        "endColumns": "48,48,46,50,46,46",
+                        "endOffsets": "150,199,246,297,344,391"
                     }
                 }
             ]

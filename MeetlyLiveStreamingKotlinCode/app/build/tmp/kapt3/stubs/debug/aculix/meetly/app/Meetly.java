@@ -7,7 +7,7 @@ public final class Meetly extends android.app.Application {
     private static boolean isAdEnabled = false;
     public static final aculix.meetly.app.Meetly.Companion Companion = null;
     
-    @java.lang.Override()
+    @java.lang.Override
     public void onCreate() {
     }
     

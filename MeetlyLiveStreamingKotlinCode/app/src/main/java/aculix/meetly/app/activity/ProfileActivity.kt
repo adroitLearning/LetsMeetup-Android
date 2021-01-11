@@ -1,62 +1,60 @@
 package aculix.meetly.app.activity
 
-import `in`.co.adroit.kotlinretrofitcode.api.RetrofitClient
-import `in`.co.adroit.kotlinretrofitcode.models.ProfileResponse
 import aculix.meetly.app.R
 import aculix.meetly.app.utils.DataStore
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.view.View.OnTouchListener
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Spinner
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_profile.*
 import kotlinx.android.synthetic.main.activity_registration.*
 import kotlinx.android.synthetic.main.custom_top_app_bar.*
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 
-class ProfileActivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
    // var topAppBar: MaterialToolbar? = null
+   var languages = arrayOf("Select Gender", "Female", "Male", "Other")
+    val NEW_SPINNER_ID = 1
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
 
-       // access the spinner
-       // access the items of the list
-       val gender = resources.getStringArray(R.array.gender)
+       //set values in fields
+       edt_username.setText(DataStore.user_name)
+       prf_edt_email.setText(DataStore.EmailId)
+       edt_mobileNo.setText(DataStore.MobileNo)
+       edt_password.setText(DataStore.password)
 
-       val spinner = findViewById<Spinner>(R.id.spinner)
-       if (spinner != null) {
-           val adapter = ArrayAdapter(
-                   this,
-                   android.R.layout.simple_spinner_item, gender
-           )
-           spinner.adapter = adapter
+        //select gender spinner code
+        var aa = ArrayAdapter(this, android.R.layout.simple_spinner_item, languages)
+        aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
-           spinner.onItemSelectedListener = object :
-               AdapterView.OnItemSelectedListener {
-               override fun onItemSelected(
-                       parent: AdapterView<*>,
-                       view: View, position: Int, id: Long
-               ) {
-                   val selected_gender = gender[position]
-                   //  Toast.makeText(this@RegistrationActivity, getString(R.string.selected_item) + " " +"" + languages[position], Toast.LENGTH_SHORT).show()
-                   // Toast.makeText(this@RegistrationActivity, selected_gender, Toast.LENGTH_SHORT).show()
-               }
+        with(profile_spinner)
+        {
+            adapter = aa
+            setSelection(0, false)
+            onItemSelectedListener = this@ProfileActivity
+            //   prompt = "Select gender"
+            gravity = android.view.Gravity.CENTER
 
-               override fun onNothingSelected(parent: AdapterView<*>) {
-                   // write code to perform some action
-               }
-           }
-       }
+        }
+
+        val spinner = Spinner(this)
+        spinner.id = NEW_SPINNER_ID
+
+        val ll = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+
+        ll.setMargins(10, 20, 10, 10)
+        linear_layout.addView(spinner)
 
         edt_username.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -78,7 +76,7 @@ class ProfileActivity : AppCompatActivity() {
 
            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                if (android.util.Patterns.EMAIL_ADDRESS.matcher(prf_edt_email.text.toString())
-                               .matches()
+                       .matches()
                )
                else {
                    prf_edt_email.setError("Invalid Email")
@@ -89,13 +87,30 @@ class ProfileActivity : AppCompatActivity() {
            }
        })
 
+        //mobile no validation
+        edt_mobileNo.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                if (edt_mobileNo.getText().toString().length < 10) {
+                    edt_mobileNo.setError("Please enter correct mobile no")
+                }
+            }
+
+            override fun afterTextChanged(s: Editable?) {
+            }
+        })
+
        edt_password.setOnTouchListener(OnTouchListener { v, event ->
            val DRAWABLE_LEFT = 0
            val DRAWABLE_TOP = 1
            val DRAWABLE_RIGHT = 2
            val DRAWABLE_BOTTOM = 3
-           if (event.rawX <= edt_password.getCompoundDrawables().get(DRAWABLE_LEFT).getBounds().width()) {
-               Toast.makeText(applicationContext, "drawable left clicked", Toast.LENGTH_LONG).show()
+           if (event.rawX <= edt_password.getCompoundDrawables().get(DRAWABLE_LEFT).getBounds()
+                   .width()
+           ) {
+               //Toast.makeText(applicationContext, "drawable left clicked", Toast.LENGTH_LONG).show()
                val intent = Intent(this@ProfileActivity, ChangePasswordActivity::class.java)
                startActivity(intent)
                // your action here
@@ -103,24 +118,6 @@ class ProfileActivity : AppCompatActivity() {
            } else false
        })
 
-      /*  //edit password
-        edt_password.setOnTouchListener(View.OnTouchListener { v, event ->
-            val DRAWABLE_LEFT = 0
-            val DRAWABLE_TOP = 1
-            val DRAWABLE_RIGHT = 2
-            val DRAWABLE_BOTTOM = 3
-            if (event.action == MotionEvent.ACTION_UP) {
-                if (event.rawX >= edt_password.getRight() - edt_password.getCompoundDrawables().get(DRAWABLE_RIGHT).getBounds().width()) {
-                    Toast.makeText(applicationContext, "drawable right clicked", Toast.LENGTH_LONG).show()
-                    DataStore.verifyMobile = "ProfileVerify"
-                    val intent = Intent(this@ProfileActivity, VerifyMobileActivity::class.java)
-                    startActivity(intent)
-                    return@OnTouchListener true
-                }
-
-            }
-            false
-        })*/
     }
     //submit button click
     fun onProfileSubmitClick(view: View) {
@@ -129,14 +126,23 @@ class ProfileActivity : AppCompatActivity() {
         if (edt_password.getText().toString().isEmpty())
         {
             edt_password.setError("enter valid password")
+            return
         }
+        Toast.makeText(applicationContext, "profile updated successfully", Toast.LENGTH_LONG).show()
 
-        val name = "aA1"
+        /*val sharedPreference =  getSharedPreferences("PREFERENCE_NAME",Context.MODE_PRIVATE)
+        var editor = sharedPreference.edit()
+        editor.putString("islogged_in","true")
+        editor.commit()*/
+
+        val intent = Intent(this@ProfileActivity, MainActivity::class.java)
+        startActivity(intent)
+       /* val name = "aA1"
         val email = "aA1"
         val mobile = "aA1"
         val gender = "aA1"
-        val password = "aA1"
-        RetrofitClient.instance.updateprofile(name, email, mobile, gender, password)
+        val password = "aA1"*/
+       /* RetrofitClient.instance.updateprofile(name, email, mobile, gender, password)
                 .enqueue(object : Callback<ProfileResponse> {
                     override fun onFailure(call: Call<ProfileResponse>, t: Throwable) {
                         Toast.makeText(applicationContext, t.message, Toast.LENGTH_LONG).show()
@@ -154,12 +160,12 @@ class ProfileActivity : AppCompatActivity() {
                         ).show()
 
                         val intent = Intent(
-                                this@ProfileActivity, TestActivity::class.java
+                                this@ProfileActivity, MainActivity::class.java
                         )
                         startActivity(intent)
                     }
                 })
-
+*/
 
 
         //val signup_url = "https://demo.adroitlearning.org/Api/signup"
@@ -221,6 +227,22 @@ class ProfileActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    override fun onNothingSelected(parent: AdapterView<*>?) {
+        showToast(message = "Nothing selected")
+    }
+
+    override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+        showToast(message = "${languages[position]}")
+        DataStore.gender = "${languages[position]}"
+
+    }
+    private fun showToast(
+        context: Context = applicationContext,
+        message: String,
+        duration: Int = Toast.LENGTH_LONG
+    ) {
+        Toast.makeText(context, message, duration).show()
+    }
 
 
     /*  fun Onverify_emailClick(view: View) {

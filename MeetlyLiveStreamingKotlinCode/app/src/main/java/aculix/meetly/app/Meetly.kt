@@ -7,8 +7,6 @@ import aculix.meetly.app.sharedpref.AppPref
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
 import com.chibatching.kotpref.Kotpref
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.RequestConfiguration
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

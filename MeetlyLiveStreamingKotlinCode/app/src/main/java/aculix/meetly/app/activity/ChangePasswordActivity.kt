@@ -2,7 +2,6 @@ package aculix.meetly.app.activity
 
 import `in`.co.adroit.kotlinretrofitcode.api.RetrofitClient
 import `in`.co.adroit.kotlinretrofitcode.models.ChangePassword
-import `in`.co.adroit.kotlinretrofitcode.models.RegistrationResponse
 import aculix.meetly.app.R
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -14,8 +13,6 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_change_password.*
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_registration.*
-import kotlinx.android.synthetic.main.activity_registration.edt_confirm_pwd
-import kotlinx.android.synthetic.main.activity_registration.edt_pwd
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

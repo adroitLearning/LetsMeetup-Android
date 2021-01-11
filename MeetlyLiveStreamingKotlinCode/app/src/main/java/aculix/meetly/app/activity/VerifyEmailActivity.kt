@@ -4,7 +4,7 @@ import `in`.co.adroit.kotlinretrofitcode.api.RetrofitClient
 import `in`.co.adroit.kotlinretrofitcode.models.VerifyEmailResponse
 import aculix.meetly.app.R
 import aculix.meetly.app.utils.DataStore
-import android.content.Intent
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -12,6 +12,10 @@ import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_registration.*
 import kotlinx.android.synthetic.main.activity_verify_email.*
+import kotlinx.android.synthetic.main.activity_verify_email.btn_resend
+import kotlinx.android.synthetic.main.activity_verify_email.edt_otp
+import kotlinx.android.synthetic.main.activity_verify_email.tv_time
+import kotlinx.android.synthetic.main.activity_verify_mobile.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -21,7 +25,7 @@ class VerifyEmailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_verify_email)
 
-        otp_text.setText("Please enter an OTP sent to your : "+DataStore.EmailId)
+        otp_text.setText("Please enter an OTP sent to your "+DataStore.EmailId)
 
         val timer = object: CountDownTimer(60000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -30,7 +34,7 @@ class VerifyEmailActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                tv_time.setText("Time's finished!");
+            //    tv_time.setText("Time's finished!");
                 btn_resend.isEnabled = true;
             }
         }
@@ -45,7 +49,7 @@ class VerifyEmailActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                tv_time.setText("Time's finished!");
+           //     tv_time.setText("Time's finished!");
                 btn_resend.isEnabled = true;
             }
         }
@@ -54,10 +58,15 @@ class VerifyEmailActivity : AppCompatActivity() {
     }
     fun onVerifyEmailClick(view: View) {
         if(edt_otp.editableText.toString().isEmpty()){
-            edt_otp.setError("Please enter otp")
+            edt_otp.setError("Please enter correct otp")
+            return
+        }
+        if (!edt_otp.editableText.toString().equals("9999")){
+            edt_otp.setError("Please Enter correct otp")
             return
         }
         else{
+            verify_email.isEnabled = false
             val email = "g@gmail.com"
             //if everything is fine
             RetrofitClient.instance.verifyEmail(email)
@@ -66,15 +75,29 @@ class VerifyEmailActivity : AppCompatActivity() {
                         Toast.makeText(applicationContext, t.message, Toast.LENGTH_LONG).show()
                     }
                     override fun onResponse(call: Call<VerifyEmailResponse>, response: Response<VerifyEmailResponse>) {
-
+                        verify_email.isEnabled = true
                         Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
 
-                        TestActivity.startActivity(this@VerifyEmailActivity)
+                        //shared preference
+                        val sharedPreference =  getSharedPreferences("PREFERENCE_NAME", Context.MODE_PRIVATE)
+                        var editor = sharedPreference.edit()
+                        editor.putString("islogged_in","true")
+                        editor.commit()
+
+                        MainActivity.startActivity(this@VerifyEmailActivity)
                      /*   val intent = Intent(this@VerifyEmailActivity,MainActivity::class.java)
                         startActivity(intent)*/
                     }
                 })
         }
 
+    }
+    override fun onBackPressed() {
+        Toast.makeText(this, "Please verify your email", Toast.LENGTH_SHORT).show()
+
+        /*    super.onBackPressed()
+            MainActivity.startActivity(this@VerifyMobileActivity)
+            finish()*/
+        return
     }
 }

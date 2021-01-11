@@ -6,19 +6,19 @@ import java.lang.System;
 public final class MeetingHistoryRepository {
     private final aculix.meetly.app.db.MeetingDao meetingDao = null;
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final androidx.lifecycle.LiveData<java.util.List<aculix.meetly.app.model.Meeting>> getMeetingHistory() {
         return null;
     }
     
-    @org.jetbrains.annotations.Nullable()
-    public final java.lang.Object addMeetingToDb(@org.jetbrains.annotations.NotNull()
-    aculix.meetly.app.model.Meeting meeting, @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.Nullable
+    public final java.lang.Object addMeetingToDb(@org.jetbrains.annotations.NotNull
+    aculix.meetly.app.model.Meeting meeting, @org.jetbrains.annotations.NotNull
     kotlin.coroutines.Continuation<? super java.lang.Long> p1) {
         return null;
     }
     
-    public MeetingHistoryRepository(@org.jetbrains.annotations.NotNull()
+    public MeetingHistoryRepository(@org.jetbrains.annotations.NotNull
     aculix.meetly.app.db.MeetingDao meetingDao) {
         super();
     }

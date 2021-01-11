@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/verify_email"
+            android:text="@string/verify_mobile"
             android:textColor="@color/whiteColor"
             android:gravity = "center"
             android:textSize="23dp"
@@ -26,13 +26,14 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include">
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,7 +77,7 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginRight="16dp"
                     android:hint="@string/enter_otp_0000"
-                    app:endIconMode="clear_text"
+
                     app:errorEnabled="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -87,6 +88,8 @@
                     <EditText
                         android:id="@+id/edt_otp"
                         android:maxLength="4"
+                        android:singleLine="true"
+                        android:imeOptions="actionDone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat"
@@ -143,6 +146,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="16dp"
+                    android:id="@+id/verify_mobile"
                     android:text="@string/verify"
                     android:onClick="onVerifyMobileClick"
                     android:fontFamily="@font/montserrat"
@@ -156,6 +160,17 @@
 
         </LinearLayout>
 
-    </ScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/powered_by"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,19 +39,19 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_meeting_main"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_meeting_main"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="aculix.meetly.app.activity.TestActivity2" />
-        <activity android:name="aculix.meetly.app.activity.SplashScreenActivity" />
+        <activity android:name="aculix.meetly.app.activity.TestActivity" />
         <activity android:name="aculix.meetly.app.activity.VerifyMobileActivity" />
         <activity android:name="aculix.meetly.app.activity.VerifyEmailActivity" />
         <activity android:name="aculix.meetly.app.activity.ChangePasswordActivity" />
         <activity android:name="aculix.meetly.app.activity.ProfileActivity" />
         <activity
-            android:name="aculix.meetly.app.activity.TestActivity"
+            android:name="aculix.meetly.app.activity.MainActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -80,11 +80,11 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="aculix.meetly.app.activity.AuthenticationActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
+        <!--
         <activity
-            android:name="aculix.meetly.app.activity.MainActivity"
-            android:screenOrientation="portrait" >
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -96,6 +96,7 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
+        -->
         <activity
             android:name="aculix.meetly.app.activity.MeetingHistoryActivity"
             android:parentActivityName="aculix.meetly.app.activity.MainActivity"

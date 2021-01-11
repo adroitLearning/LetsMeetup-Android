@@ -1837,7 +1837,10 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable redbox_top_border_background
+drawable security_image
+drawable spinner_bg
 drawable spinner_border
+drawable spinner_sla
 drawable test_custom_background
 drawable text_input_bg
 drawable tooltip_frame_dark
@@ -1857,6 +1860,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Spinner
 id TOP_END
 id TOP_START
 id accelerate
@@ -1930,6 +1934,7 @@ id animateToEnd
 id animateToStart
 id anonymous_button
 id apple_signin_button
+id appname
 id asConfigured
 id async
 id auto
@@ -1953,6 +1958,7 @@ id browser_actions_menu_view
 id btnCreateMeeting
 id btnJoinMeeting
 id btnRejoinMeeting
+id btnScheduleMeeting
 id btnSignInEmail
 id btnSignInGoogle
 id btnToggleCreateMeeting
@@ -2135,6 +2141,7 @@ id italic
 id item_touch_helper_previous_elevation
 id ivCreateMeeting
 id ivJoinMeeting
+id ivJoinMeetingg
 id ivLogo
 id ivMeetingHistory
 id ivProfile
@@ -2153,6 +2160,8 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
+id linear_Layout
 id linear_layout
 id listMode
 id list_item
@@ -2218,6 +2227,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id mySpinner
 id name
 id name_layout
 id nav_feedback
@@ -2260,7 +2270,7 @@ id pin
 id position
 id postLayout
 id prf_edt_email
-id progressBar
+id profile_spinner
 id progress_circular
 id progress_horizontal
 id radio
@@ -2325,7 +2335,6 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
-id spinner
 id spline
 id split_action_bar
 id spread
@@ -2364,7 +2373,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView3
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2415,7 +2424,6 @@ id tv_edt_otp
 id tv_signup
 id tv_time
 id txtTitle
-id txtView
 id unchecked
 id uniform
 id unlabeled
@@ -2423,6 +2431,7 @@ id up
 id upper
 id useLogo
 id verify_email
+id verify_mobile
 id view_offset_helper
 id view_pager
 id view_tag_instance_handle
@@ -2515,6 +2524,7 @@ layout activity_profile
 layout activity_registration
 layout activity_splash_screen
 layout activity_test
+layout activity_testt
 layout activity_verify_email
 layout activity_verify_mobile
 layout activity_webview
@@ -2638,6 +2648,7 @@ layout redbox_view
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spinner_right_aligned
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_design_checkbox
@@ -2759,7 +2770,6 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string admob_app_id
-string adroit
 string alert_description
 string all_btn_sign_in
 string all_btn_sign_out
@@ -2991,6 +3001,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string image_description
 string imagebutton_description
+string its_safe
 string library_fastadapter_author
 string library_fastadapter_authorWebsite
 string library_fastadapter_isOpenSource
@@ -3021,6 +3032,7 @@ string main_join_meeting
 string main_join_with_code
 string main_meeting_code
 string main_meeting_code_copied
+string main_schedule_meeting
 string main_share_meeting_code_desc
 string main_share_meeting_code_title
 string meeting_history_delete_meetings
@@ -3082,6 +3094,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string powered_by
 string preferences_license_summary
 string profile
 string profile_dark_mode
@@ -3135,6 +3148,7 @@ string toolbar_description
 string user_name
 string verify
 string verify_email
+string verify_mobile
 string video_calling_app
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -6,9 +6,9 @@ import java.lang.System;
 public final class MeetingUtils {
     public static final aculix.meetly.app.utils.MeetingUtils INSTANCE = null;
     
-    public final void startMeeting(@org.jetbrains.annotations.NotNull()
-    android.content.Context context, @org.jetbrains.annotations.NotNull()
-    java.lang.String meetingCode, @androidx.annotation.StringRes()
+    public final void startMeeting(@org.jetbrains.annotations.NotNull
+    android.content.Context context, @org.jetbrains.annotations.NotNull
+    java.lang.String meetingCode, @androidx.annotation.StringRes
     int initialToastMessage) {
     }
     

@@ -3,7 +3,6 @@ package aculix.meetly.app.utils
 import aculix.core.extensions.toast
 import aculix.meetly.app.R
 import android.content.Context
-import android.os.Bundle
 import androidx.annotation.StringRes
 import androidx.core.os.bundleOf
 import com.google.firebase.auth.FirebaseAuth

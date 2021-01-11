@@ -21,6 +21,8 @@ aculix/meetly/app/databinding/ActivityAuthenticationBinding.java
  aculix.meetly.app.databinding.ActivityAuthenticationBinding
 aculix/meetly/app/databinding/ActivityProfileBinding.java
  aculix.meetly.app.databinding.ActivityProfileBinding
+aculix/meetly/app/databinding/SpinnerRightAlignedBinding.java
+ aculix.meetly.app.databinding.SpinnerRightAlignedBinding
 aculix/meetly/app/databinding/ItemFaqsBinding.java
  aculix.meetly.app.databinding.ItemFaqsBinding
 aculix/meetly/app/databinding/ActivityRegistrationBinding.java
@@ -37,6 +39,8 @@ aculix/meetly/app/db/MeetingDao_Impl.java
  aculix.meetly.app.db.MeetingDao_Impl$4
 aculix/meetly/app/utils/DataStore.java
  aculix.meetly.app.utils.DataStore
+aculix/meetly/app/databinding/ActivityTesttBinding.java
+ aculix.meetly.app.databinding.ActivityTesttBinding
 aculix/meetly/app/databinding/ActivityChangePasswordBinding.java
  aculix.meetly.app.databinding.ActivityChangePasswordBinding
 aculix/meetly/app/databinding/ActivityLoginBinding.java

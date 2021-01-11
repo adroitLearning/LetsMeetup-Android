@@ -1,6 +1,6 @@
 <resources>
     <!-- App -->
-    <string name="app_name">Link-Up</string>
+    <string name="app_name">"Let's" Link-Up</string>
     <string name="app_server_url">https://meet.jit.si</string>
     <string name="app_dynamic_link_url_prefix">https://meetlyapp.page.link</string>
     <string name="app_deep_link_url">https://meetly.aculix.com/?meetingCode=%1$s</string>
@@ -30,8 +30,12 @@
     <string name="authentication_login_canceled">Sign in canceled</string>
 
     <string name="main_join_meeting">Join Meeting</string>
-    <string name="main_join_with_code">Join with code</string>
-    <string name="main_create_meeting">Create and Join Meeting</string>
+    <string name="main_join_with_code">Join with a code</string>
+    <!--   <string name="main_schedule_meeting">Schedule \n\n Meeting</string>-->
+    <string name="main_schedule_meeting">Schedule Meeting</string>
+    <!--<string name="main_create_meeting">Create Meeting</string>-->
+    <!--  <string name="main_create_meeting">Create \n\n Meeting</string>-->
+    <string name="main_create_meeting">Create Meeting</string>
     <string name="main_meeting_code">Meeting Code</string>
     <string name="main_btn_create_meeting">Create</string>
     <string name="main_enter_meeting_code">Enter Meeting Code</string>
@@ -62,7 +66,8 @@
     <string name="profile_dot_separator">\u2022</string>
     <string name="profile_feedback_email_subject">Feedback - Lets Meet Us</string>
     <string name="profile_share_app_title">Share app via</string>
-    <string name="profile_share_app_text">Download "Let's Meet Us", do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="profile_share_app_text">Download "Let's Meet Us", do instant video conferences with your family, friends, and colleagues.</string>
+    <!-- <string name="profile_share_app_text">Download "Let's Meet Us", do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>-->
     <string name="profile_open_source_licenses">Open Source Licenses</string>
 
     <string name="all_skip">Skip</string>
@@ -107,12 +112,12 @@
     <string name="submit">Submit</string>
     <string name="submit_profile">Submit profile</string>
     <string name="registration">Registration</string>
-    <string name="user_name">user name</string>
+    <string name="user_name">User Name</string>
     <string name="login">Login</string>
-    <string name="forget_password">forgot_password?</string>
-    <string name="register">Haven\'t account? wan\'t register?</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="register">"Don't" have an account ? Register</string>
     <string name="verify_email">Verify Email</string>
-    <string name="reset_in">Reset in</string>
+    <string name="reset_in">Resend in</string>
     <string name="verify">Verify</string>
     <string name="enter_otp1">"Please enter an OTP sent to your : g@gmail.com "</string>
     <string name="enter_otp2">"Please enter an OTP sent to your : 9156602107 "</string>
@@ -122,10 +127,12 @@
     <string name="new_Password">New Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="change_passowrd">Change Password</string>
-    <string name="video_calling_app">A Video Calling App By</string>
-    <string name="adroit">Adroit Infotech</string>
+    <string name="video_calling_app">For Video Calling</string>
+    <string name="powered_by">Powered By : Adroit Infotech</string>
     <string name="faq">FAQ</string>
     <string name="or">Or</string>
+    <string name="verify_mobile">Verify Mobile</string>
+    <string name="its_safe">It\'s Safe</string>
 
     <string-array name="gender">
         <item>Male</item>

@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.View
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_verify_email.*
 import kotlinx.android.synthetic.main.activity_verify_mobile.*
 import kotlinx.android.synthetic.main.activity_verify_mobile.btn_resend
@@ -22,9 +23,10 @@ import retrofit2.Response
 class VerifyMobileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_verify_mobile)
 
-        otp_text_mobile.setText("Please enter an OTP sent to your : "+DataStore.MobileNo)
+        otp_text_mobile.setText("Please enter an OTP sent to your "+DataStore.MobileNo)
 
         val timer = object: CountDownTimer(60000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -33,7 +35,7 @@ class VerifyMobileActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                tv_time.setText("Time's finished!");
+              //  tv_time.setText("Time's finished!");
                 btn_resend.isEnabled = true;
             }
         }
@@ -46,9 +48,8 @@ class VerifyMobileActivity : AppCompatActivity() {
                 tv_time.setText("00: " + millisUntilFinished / 1000)
                 btn_resend.isEnabled = false;
             }
-
             override fun onFinish() {
-                tv_time.setText("Time's finished!");
+            //    tv_time.setText("Time's finished!");
                 btn_resend.isEnabled = true;
             }
         }
@@ -56,11 +57,17 @@ class VerifyMobileActivity : AppCompatActivity() {
 
     }
     fun onVerifyMobileClick(view: View) {
+
         if(edt_otp.editableText.toString().isEmpty()){
             edt_otp.setError("Please enter otp")
             return
         }
+        if (!edt_otp.editableText.toString().equals("0000")){
+            edt_otp.setError("Please Enter otp")
+            return
+        }
         else{
+            verify_mobile.isEnabled = false
             val mobile = "91656603108"
             //if everything is fine
             RetrofitClient.instance.verifyMobile(mobile)
@@ -72,6 +79,7 @@ class VerifyMobileActivity : AppCompatActivity() {
 
                         Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
 
+                        verify_mobile.isEnabled = true
                         val data = DataStore.verifyMobile
                         if(data == "ProfileVerify"){
                             val intent = Intent(this@VerifyMobileActivity,ChangePasswordActivity::class.java)
@@ -87,4 +95,14 @@ class VerifyMobileActivity : AppCompatActivity() {
         }
 
     }
+
+    override fun onBackPressed() {
+        Toast.makeText(this, "Please verify your mobile", Toast.LENGTH_SHORT).show()
+
+    /*    super.onBackPressed()
+        MainActivity.startActivity(this@VerifyMobileActivity)
+        finish()*/
+        return
+    }
+
 }
