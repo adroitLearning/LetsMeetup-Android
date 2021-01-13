@@ -4,14 +4,14 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "aculix.meetly.app",
+  "applicationId": "com.adroit.letslinkup",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 6,
-      "versionName": "1.13",
+      "versionCode": 1,
+      "versionName": "1.0",
       "outputFile": "AndroidManifest.xml"
     }
   ]

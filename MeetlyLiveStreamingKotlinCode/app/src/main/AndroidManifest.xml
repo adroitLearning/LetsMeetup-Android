@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="aculix.meetly.app">
+    package="com.adroit.letslinkup">
 
     <application
         android:allowBackup="true"
@@ -11,43 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="LockedOrientationActivity">
-        <activity android:name="aculix.meetly.app.activity.TestActivity"></activity>
-        <activity android:name="aculix.meetly.app.activity.VerifyMobileActivity" />
-        <activity android:name="aculix.meetly.app.activity.VerifyEmailActivity" />
-        <activity android:name="aculix.meetly.app.activity.ChangePasswordActivity" />
-        <activity android:name="aculix.meetly.app.activity.ProfileActivity" />
+        <activity android:name=".activity.TestActivity" />
+        <activity android:name=".activity.VerifyMobileActivity" />
+        <activity android:name=".activity.VerifyEmailActivity" />
+        <activity android:name=".activity.ChangePasswordActivity" />
+        <activity android:name=".activity.ProfileActivity" />
         <activity
-            android:name="aculix.meetly.app.activity.MainActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:host="@string/app_deep_link_domain"
-                    android:scheme="https" />
-            </intent-filter>
-        </activity>
-        <activity android:name="aculix.meetly.app.activity.LoginActivity" />
-        <activity android:name="aculix.meetly.app.activity.RegistrationActivity" />
-        <activity
-            android:name="aculix.meetly.app.activity.SplashActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="aculix.meetly.app.activity.AppIntroActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="aculix.meetly.app.activity.AuthenticationActivity"
-            android:screenOrientation="portrait"></activity>
-      <!--  <activity
             android:name=".activity.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -60,14 +29,32 @@
                     android:host="@string/app_deep_link_domain"
                     android:scheme="https" />
             </intent-filter>
-        </activity>-->
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
         <activity
-            android:name="aculix.meetly.app.activity.MeetingHistoryActivity"
-            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
+            android:name=".activity.SplashActivity"
+            android:theme="@style/Theme.AppCompat"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adroit.letslinkup.activity.AppIntroActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="aculix.meetly.app.activity.FaqsActivity"
-            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
+            android:name=".activity.AuthenticationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MeetingHistoryActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FaqsActivity"
+            android:parentActivityName=".activity.MainActivity"
             android:screenOrientation="portrait" /> <!-- Admob -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

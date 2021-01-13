@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/enter_otp2"
-                    android:textColor="@color/faintgraycolor"
+                    android:textColor="@color/colorPrimary"
                     android:id="@+id/otp_text_mobile"
                     android:layout_marginStart="16dp"
                     android:layout_marginLeft="16dp"
@@ -71,13 +71,12 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="40dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginRight="16dp"
                     android:hint="@string/enter_otp_0000"
-
                     app:errorEnabled="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -115,9 +114,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/reset_in"
-                        android:textColor="@color/faintgraycolor"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="20dp"
-                        android:textColorHint="@color/faintgraycolor"
+                        android:textColorHint="@color/colorPrimary"
                         tools:ignore="MissingConstraints" />
 
                     <TextView
@@ -134,6 +133,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
+                        android:backgroundTint="@color/colorPrimary"
                         android:text="Resend"
                         android:onClick="onResendMobileOTPClick"
                         tools:ignore="MissingConstraints" />
@@ -147,6 +147,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="16dp"
                     android:id="@+id/verify_mobile"
+                    android:backgroundTint="@color/colorPrimary"
                     android:text="@string/verify"
                     android:onClick="onVerifyMobileClick"
                     android:fontFamily="@font/montserrat"

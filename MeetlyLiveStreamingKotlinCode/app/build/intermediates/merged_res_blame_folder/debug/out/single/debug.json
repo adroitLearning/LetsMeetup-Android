@@ -1,310 +1,290 @@
 [
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_faqs.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_faqs.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authentication.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_authentication.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_securityimage.jpeg.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable-v24\\securityimage.jpeg"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chat.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authentication.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_authentication.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_app_intro.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_meeting_app_intro.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_main.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_meeting_main.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_question_answer_24.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_baseline_question_answer_24.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_history.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_cab_meeting_history.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\menu\\menu_cab_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_security_image.jpeg.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\security_image.jpeg"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v23_ic_splash_logo.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable-anydpi-v23\\ic_splash_logo.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_splash.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\bg_splash.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_chat.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_app_logo.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_app_logo.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_history.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify_mobile.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_verify_mobile.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\menu\\navigation_menu.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_profile.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_history.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_faqs.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\item_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_empty_meeting_history.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable-night\\ic_empty_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_testt.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_testt.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_bg.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\spinner_bg.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chat.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_chat.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_chat.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_chat.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_main.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_meeting_main.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_profile.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\dialog_profile.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_sla.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\spinner_sla.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_input_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\text_input_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_email.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_meeting_history.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_app_intro.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\bg_app_intro.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.ttf.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\font\\montserrat.ttf"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_profile.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable-night\\ic_profile.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_chat.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_chat.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\font_open_sans_bold.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\font\\open_sans_bold.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_profile.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\dialog_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_testt.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_testt.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_history.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_open_source_licenses.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_open_source_licenses.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_empty_meeting_history.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_empty_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_create_24.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_baseline_create_24.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_history.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_faqs.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_license_metadata.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_license_metadata"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_sla.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\spinner_sla.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_top_app_bar.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\custom_top_app_bar.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify_email.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_verify_email.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_remove_red_eye_24.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_baseline_remove_red_eye_24.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_faqs.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\item_faqs.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_chat.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_input_bg.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\text_input_bg.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_chat.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_test.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout-small_activity_main.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout-small\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify_email.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_verify_email.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_licenses.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_licenses"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_border.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\spinner_border.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_right_aligned.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\spinner_right_aligned.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_meeting_history.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_baseline_remove_red_eye_24.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_registration.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_create_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_baseline_create_24.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_empty_meeting_history.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_empty_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_right_aligned.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\spinner_right_aligned.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_chat.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_chat.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_chat.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clipboard.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_clipboard.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\font_open_sans_semibold.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\font\\open_sans_semibold.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_splash_logo.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_splash_logo.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_chat.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_splash_logo.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable-v24\\ic_splash_logo.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify_mobile.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_verify_mobile.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google_play.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_google_play.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_meeting_main.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable-night\\ic_meeting_main.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v23_bg_splash.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable-anydpi-v23\\bg_splash.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_question_answer_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_baseline_question_answer_24.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_app_logo.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_app_logo.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_chat.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_faqs.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_faqs.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_faqs.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_bg.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\spinner_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_open_source_licenses.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_open_source_licenses.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal_activity_main.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout-normal\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_history.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_app_intro.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\bg_app_intro.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_chat.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_border.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\spinner_border.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_app_intro.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_meeting_app_intro.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_chat.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_splash.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\bg_splash.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clipboard.xml.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\drawable\\ic_clipboard.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google_play.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_google_play.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.ttf.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\font\\montserrat.ttf"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_profile.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_license_metadata.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_license_metadata"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\menu_home_menu.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\menu\\home_menu.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_licenses.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_licenses"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_delete.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_email_24.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\drawable\\ic_share.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\layout\\activity_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\font_open_sans_bold.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\font\\open_sans_bold.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\build\\intermediates\\res\\merged\\debug\\font_open_sans_semibold.xml.flat",
-        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\meetly-free-video-conferencing-meeting-app\\MeetlyMainFile\\LetsMeetUsKotlin\\app\\src\\main\\res\\font\\open_sans_semibold.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

@@ -2,9 +2,13 @@
     <!-- App -->
     <string name="app_name">"Let's" Link-Up</string>
     <string name="app_server_url">https://meet.jit.si</string>
-    <string name="app_dynamic_link_url_prefix">https://meetlyapp.page.link</string>
-    <string name="app_deep_link_url">https://meetly.aculix.com/?meetingCode=%1$s</string>
-    <string name="app_deep_link_domain">meetly.aculix.com</string>
+ <!--   <string name="app_dynamic_link_url_prefix">https://meetlyapp.page.link</string>-->
+      <!-- <string name="app_deep_link_url">https://meetly.aculix.com/?meetingCode=%1$s</string>-->
+       <!--<string name="app_deep_link_url">https://www.adroitlearning.org/</string>-->
+    <!--<string name="app_deep_link_domain">meetly.aculix.com</string>-->
+    <string name="app_dynamic_link_url_prefix">https://letslinkup.page.link/?link=https://www.adroitlearning.org/efr=1</string>
+    <string name="app_deep_link_url">https://www.adroitlearning.org/</string>
+    <string name="app_deep_link_domain">https://www.adroitlearning.org/</string>
     <string name="app_tagline">Instant video conferences with your family, friends, and colleagues</string>
     <string name="app_feedback_contact_email">Your Feedback Email</string>
     <string name="app_privacy_policy_url">Your Privacy Policy URL</string>
@@ -34,8 +38,8 @@
     <!--   <string name="main_schedule_meeting">Schedule \n\n Meeting</string>-->
     <string name="main_schedule_meeting">Schedule Meeting</string>
     <!--<string name="main_create_meeting">Create Meeting</string>-->
-    <!--  <string name="main_create_meeting">Create \n\n Meeting</string>-->
-    <string name="main_create_meeting">Create Meeting</string>
+     <string name="main_create_meeting">Create\nMeeting</string>
+    <!--<string name="main_create_meeting">Create Meeting</string>-->
     <string name="main_meeting_code">Meeting Code</string>
     <string name="main_btn_create_meeting">Create</string>
     <string name="main_enter_meeting_code">Enter Meeting Code</string>

@@ -1,49 +1,47 @@
-aculix/meetly/app/databinding/ActivityMainBinding.java
- aculix.meetly.app.databinding.ActivityMainBinding
-aculix/meetly/app/databinding/ActivityVerifyEmailBinding.java
- aculix.meetly.app.databinding.ActivityVerifyEmailBinding
-aculix/meetly/app/databinding/DialogProfileBinding.java
- aculix.meetly.app.databinding.DialogProfileBinding
-aculix/meetly/app/databinding/ActivitySplashScreenBinding.java
- aculix.meetly.app.databinding.ActivitySplashScreenBinding
-aculix/meetly/app/databinding/ItemMeetingHistoryBinding.java
- aculix.meetly.app.databinding.ItemMeetingHistoryBinding
-aculix/meetly/app/db/MeetlyDB_Impl.java
- aculix.meetly.app.db.MeetlyDB_Impl
- aculix.meetly.app.db.MeetlyDB_Impl$1
-aculix/meetly/app/databinding/ActivityFaqsBinding.java
- aculix.meetly.app.databinding.ActivityFaqsBinding
-aculix/meetly/app/databinding/ActivityMeetingHistoryBinding.java
- aculix.meetly.app.databinding.ActivityMeetingHistoryBinding
-aculix/meetly/app/databinding/CustomTopAppBarBinding.java
- aculix.meetly.app.databinding.CustomTopAppBarBinding
-aculix/meetly/app/databinding/ActivityAuthenticationBinding.java
- aculix.meetly.app.databinding.ActivityAuthenticationBinding
-aculix/meetly/app/databinding/ActivityProfileBinding.java
- aculix.meetly.app.databinding.ActivityProfileBinding
-aculix/meetly/app/databinding/SpinnerRightAlignedBinding.java
- aculix.meetly.app.databinding.SpinnerRightAlignedBinding
-aculix/meetly/app/databinding/ItemFaqsBinding.java
- aculix.meetly.app.databinding.ItemFaqsBinding
-aculix/meetly/app/databinding/ActivityRegistrationBinding.java
- aculix.meetly.app.databinding.ActivityRegistrationBinding
-aculix/meetly/app/databinding/ActivityTestBinding.java
- aculix.meetly.app.databinding.ActivityTestBinding
-aculix/meetly/app/databinding/ActivityVerifyMobileBinding.java
- aculix.meetly.app.databinding.ActivityVerifyMobileBinding
-aculix/meetly/app/db/MeetingDao_Impl.java
- aculix.meetly.app.db.MeetingDao_Impl
- aculix.meetly.app.db.MeetingDao_Impl$1
- aculix.meetly.app.db.MeetingDao_Impl$2
- aculix.meetly.app.db.MeetingDao_Impl$3
- aculix.meetly.app.db.MeetingDao_Impl$4
-aculix/meetly/app/utils/DataStore.java
- aculix.meetly.app.utils.DataStore
-aculix/meetly/app/databinding/ActivityTesttBinding.java
- aculix.meetly.app.databinding.ActivityTesttBinding
-aculix/meetly/app/databinding/ActivityChangePasswordBinding.java
- aculix.meetly.app.databinding.ActivityChangePasswordBinding
-aculix/meetly/app/databinding/ActivityLoginBinding.java
- aculix.meetly.app.databinding.ActivityLoginBinding
-aculix/meetly/app/BuildConfig.java
- aculix.meetly.app.BuildConfig
+com/adroit/letslinkup/databinding/ActivityVerifyMobileBinding.java
+ com.adroit.letslinkup.databinding.ActivityVerifyMobileBinding
+com/adroit/letslinkup/db/LetsLinkUsDB_Impl.java
+ com.adroit.letslinkup.db.LetsLinkUsDB_Impl
+ com.adroit.letslinkup.db.LetsLinkUsDB_Impl$1
+com/adroit/letslinkup/databinding/SpinnerRightAlignedBinding.java
+ com.adroit.letslinkup.databinding.SpinnerRightAlignedBinding
+com/adroit/letslinkup/databinding/ActivityRegistrationBinding.java
+ com.adroit.letslinkup.databinding.ActivityRegistrationBinding
+com/adroit/letslinkup/db/LetsLinkUsDao_Impl.java
+ com.adroit.letslinkup.db.LetsLinkUsDao_Impl
+ com.adroit.letslinkup.db.LetsLinkUsDao_Impl$1
+ com.adroit.letslinkup.db.LetsLinkUsDao_Impl$2
+ com.adroit.letslinkup.db.LetsLinkUsDao_Impl$3
+ com.adroit.letslinkup.db.LetsLinkUsDao_Impl$4
+com/adroit/letslinkup/databinding/ActivityAuthenticationBinding.java
+ com.adroit.letslinkup.databinding.ActivityAuthenticationBinding
+com/adroit/letslinkup/databinding/ActivityTesttBinding.java
+ com.adroit.letslinkup.databinding.ActivityTesttBinding
+com/adroit/letslinkup/databinding/ActivityFaqsBinding.java
+ com.adroit.letslinkup.databinding.ActivityFaqsBinding
+com/adroit/letslinkup/databinding/ActivityTestBinding.java
+ com.adroit.letslinkup.databinding.ActivityTestBinding
+com/adroit/letslinkup/databinding/ActivityMeetingHistoryBinding.java
+ com.adroit.letslinkup.databinding.ActivityMeetingHistoryBinding
+com/adroit/letslinkup/databinding/DialogProfileBinding.java
+ com.adroit.letslinkup.databinding.DialogProfileBinding
+com/adroit/letslinkup/databinding/ActivityMainBinding.java
+ com.adroit.letslinkup.databinding.ActivityMainBinding
+com/adroit/letslinkup/databinding/ActivityProfileBinding.java
+ com.adroit.letslinkup.databinding.ActivityProfileBinding
+com/adroit/letslinkup/databinding/ActivityVerifyEmailBinding.java
+ com.adroit.letslinkup.databinding.ActivityVerifyEmailBinding
+com/adroit/letslinkup/BuildConfig.java
+ com.adroit.letslinkup.BuildConfig
+com/adroit/letslinkup/utils/DataStore.java
+ com.adroit.letslinkup.utils.DataStore
+com/adroit/letslinkup/databinding/ActivitySplashScreenBinding.java
+ com.adroit.letslinkup.databinding.ActivitySplashScreenBinding
+com/adroit/letslinkup/databinding/ItemFaqsBinding.java
+ com.adroit.letslinkup.databinding.ItemFaqsBinding
+com/adroit/letslinkup/databinding/ActivityChangePasswordBinding.java
+ com.adroit.letslinkup.databinding.ActivityChangePasswordBinding
+com/adroit/letslinkup/databinding/ItemMeetingHistoryBinding.java
+ com.adroit.letslinkup.databinding.ItemMeetingHistoryBinding
+com/adroit/letslinkup/databinding/ActivityLoginBinding.java
+ com.adroit.letslinkup.databinding.ActivityLoginBinding

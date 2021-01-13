@@ -86,21 +86,21 @@
         app:layout_constraintTop_toBottomOf="@+id/ivJoinMeeting"
         tools:ignore="MissingConstraints">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnToggleJoinMeeting"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_join_meeting" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnToggleCreateMeeting"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_create_meeting" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnScheduleMeeting"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="match_parent"
@@ -177,6 +177,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/main_btn_join_meeting"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
