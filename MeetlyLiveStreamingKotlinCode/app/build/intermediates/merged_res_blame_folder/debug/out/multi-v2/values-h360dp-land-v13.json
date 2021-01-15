@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+            "outputFile": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\2d892f05ff87f3d840cbce800511c1ef\\material-1.2.1\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\df896cfd98cba10f940283268a5363f4\\material-1.1.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

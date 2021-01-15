@@ -1,46 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\2d892f05ff87f3d840cbce800511c1ef\\material-1.2.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\values-night\\config.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917,2055,2179,2309,2431,2569,2685",
-                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
-                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2050,2174,2304,2426,2564,2680,2800"
-                    },
-                    "to": {
-                        "startLines": "26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,43,44,45,46,47,48,49",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1693,1781,1905,2007,2109,2225,2327,2441,2569,2685,2807,2943,3063,3197,3317,3429,3644,3782,3906,4036,4158,4296,4412",
-                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
-                        "endOffsets": "1776,1900,2002,2104,2220,2322,2436,2564,2680,2802,2938,3058,3192,3312,3424,3550,3777,3901,4031,4153,4291,4407,4527"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "16,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "865,102",
-                        "endLines": "19,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "1078,857"
-                    },
-                    "to": {
-                        "startLines": "2,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,947",
-                        "endLines": "5,25",
-                        "endColumns": "12,12",
-                        "endOffsets": "310,1688"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\dfdd32614d9c5dbbeace68a8311bebba\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\3af21c826e2d56b01ce398e41f9aff3a\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -49,11 +23,64 @@
                         "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
-                        "startLines": "6,7,8,9,10,11,12,42",
+                        "startLines": "9,10,11,12,13,14,15,32",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "315,385,469,553,649,751,853,3555",
+                        "startOffsets": "396,466,550,634,730,832,934,2890",
                         "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "380,464,548,644,746,848,942,3639"
+                        "endOffsets": "461,545,629,725,827,929,1023,2974"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "216"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3117",
+                        "endLines": "36",
+                        "endColumns": "12",
+                        "endOffsets": "3277"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "7,6,2,3,5,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "250,201,55,102,154,300",
+                        "endColumns": "48,48,46,50,46,46",
+                        "endOffsets": "294,245,97,148,196,342"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "106,155,204,251,302,349",
+                        "endColumns": "48,48,46,50,46,46",
+                        "endOffsets": "150,199,246,297,344,391"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\df896cfd98cba10f940283268a5363f4\\material-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917,2055,2179,2309,2431,2569,2685",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
+                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2050,2174,2304,2426,2564,2680,2800"
+                    },
+                    "to": {
+                        "startLines": "16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,33,37,38,39,40,41,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1028,1116,1240,1342,1444,1560,1662,1776,1904,2020,2142,2278,2398,2532,2652,2764,2979,3282,3406,3536,3658,3796,3912",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
+                        "endOffsets": "1111,1235,1337,1439,1555,1657,1771,1899,2015,2137,2273,2393,2527,2647,2759,2885,3112,3401,3531,3653,3791,3907,4027"
                     }
                 }
             ]

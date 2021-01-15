@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi-rVN\\values-vi-rVN.xml",
+            "outputFile": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi-rVN\\values-vi-rVN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\3763cdea88c7a82e4d09933ae2bf2ac7\\jetified-AppIntro-6.0.0\\res\\values-vi-rVN\\values-vi-rVN.xml",
+                    "source": "C:\\Users\\Gunjan\\.gradle\\caches\\transforms-2\\files-2.1\\feba657da83f0ae62a630c37e9ef9a51\\jetified-AppIntro-6.0.0\\res\\values-vi-rVN\\values-vi-rVN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -1,70 +1,66 @@
 [
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_authentication.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_authentication.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_meeting_history.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_faqs.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\item_faqs.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_meeting_history.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\spinner_right_aligned.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\spinner_right_aligned.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_meeting_history.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_verify_email.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_verify_email.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_testt.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_testt.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_test.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_password.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_faqs.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_verify_mobile.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_verify_mobile.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_faqs.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\item_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_meeting_history.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_authentication.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_authentication.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_registration.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_top_app_bar.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\custom_top_app_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_faqs.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_faqs.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_profile.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\dialog_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_profile.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\dialog_profile.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_verify_email.xml",
-        "source": "C:\\Users\\Gunjan\\Documents\\Android Projects\\LetsMeetUp\\app\\src\\main\\res\\layout\\activity_verify_email.xml"
+        "merged": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_verify_mobile.xml",
+        "source": "C:\\Users\\Gunjan\\Documents\\Adroinfotech Code\\livestreaming code\\LetsLinkUp\\Meetly\\app\\src\\main\\res\\layout\\activity_verify_mobile.xml"
     }
 ]

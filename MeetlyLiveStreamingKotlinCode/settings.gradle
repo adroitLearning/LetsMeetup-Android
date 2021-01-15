@@ -1,2 +1,2 @@
-include ':app'
-rootProject.name = "LetsMeetUp"
+rootProject.name='Meetly'
+include ':app', ':core'

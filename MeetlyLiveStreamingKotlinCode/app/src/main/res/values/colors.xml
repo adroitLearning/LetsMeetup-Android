@@ -7,6 +7,7 @@
     <color name="colorOnSurface">#000000</color>
     <color name="colorOnPrimary">#FFFFFF</color>
 
+
     <color name="transparentColor">#0fff</color>
     <color name="whiteColor">#FFFFFF</color>
     <color name="faintgraycolor">#7FC682</color>
@@ -14,13 +15,5 @@
     <color name="splashBgColor">#1976D2</color>
     <color name="dividerColor">#E0E0E0</color>
     <color name="bgcolor">#596856</color>
-
-    <!--text color-->
-    <color name="purple_500">#1976D2</color>
-    <!--title bar color-->
-    <color name="purple_700">#000</color>
-
-    <color name="teal_200">#2196F3</color>
-    <color name="teal_700">#68DF25</color>
     <color name="spinner_txt_color">#666666</color>
 </resources>

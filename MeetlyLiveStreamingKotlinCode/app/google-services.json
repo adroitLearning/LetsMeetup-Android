@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "727681803576",
-    "project_id": "letslinkup-6bd5c",
-    "storage_bucket": "letslinkup-6bd5c.appspot.com"
+    "project_number": "250060150318",
+    "project_id": "meetly-ff3da",
+    "storage_bucket": "meetly-ff3da.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:727681803576:android:147197eed597f218dbcdcd",
+        "mobilesdk_app_id": "1:250060150318:android:77617d9891102a314ab1bf",
         "android_client_info": {
-          "package_name": "com.adroit.letslinkup"
+          "package_name": "aculix.meetly.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "727681803576-d1nqpkhc8gm9a15kc39rnhe5dj12r0np.apps.googleusercontent.com",
+          "client_id": "250060150318-a62lprm8dfihcdtp4j9s1jhec95a6ho9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aculix.meetly.app",
+            "certificate_hash": "d05e73d25cc692c783ef1dc7cbbe17b528cd3401"
+          }
+        },
+        {
+          "client_id": "250060150318-0enk0gb8ohudvq23j0nctpc3371ca1uf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCOInz9PcMJM5Mpi6h83ba7rRojgI2mDeU"
+          "current_key": "AIzaSyCI23rz9YPYLW8X95rakOEmtXtWOjTx2LU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "727681803576-d1nqpkhc8gm9a15kc39rnhe5dj12r0np.apps.googleusercontent.com",
+              "client_id": "250060150318-0enk0gb8ohudvq23j0nctpc3371ca1uf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
