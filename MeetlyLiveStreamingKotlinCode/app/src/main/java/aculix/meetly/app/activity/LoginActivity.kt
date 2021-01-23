@@ -1,19 +1,16 @@
-package aculix.meetly.app.activity
+package com.adroit.letslinkup.activity
 
 import `in`.co.adroit.kotlinretrofitcode.api.RetrofitClient
 import `in`.co.adroit.kotlinretrofitcode.models.LoginResponse
-import aculix.meetly.app.R
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log
 import android.view.View
-import android.widget.EditText
 import android.widget.Toast
-import com.afollestad.materialdialogs.utils.MDUtil.getStringArray
+import com.adroit.letslinkup.R
 /*
 import com.android.volley.AuthFailureError
 import com.android.volley.Request
@@ -24,8 +21,6 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley*/
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_registration.*
-import org.json.JSONException
-import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -42,15 +37,13 @@ class LoginActivity : AppCompatActivity() {
 
    // private var requestQueue: RequestQueue? = null
     val TAG = "Handy Opinion Tutorials"
-   // var volleyRequestQueue: RequestQueue? = null
+
+    // var volleyRequestQueue: RequestQueue? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-     //   requestQueue = Volley.newRequestQueue(this)
-
-         // val edt_login = findViewById(R.id.edt_logindata) as EditText
 
         edt_logindata.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -66,17 +59,16 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun Login(view: View) {
-    //    login.isEnabled = true;
         if (edt_logindata.getText().toString().length < 1){
             edt_logindata.setError("Please enter number or email id")
+            return
         }
         if (edt_password.getText().toString().length < 1){
             edt_password.setError("Please enter password")
+            return
         }
         else{
-            login.isEnabled = false
-           // val url = "https://demo.adroitlearning.org/Api/login"
-           // val url = "https://fe6f1e10-d73e-4993-b326-c1663e656c13.mock.pstmn.io/api/login"
+            login.isEnabled = true
 
             val email = "g@gmail.com"
             val password = "gG@1"
@@ -92,6 +84,12 @@ class LoginActivity : AppCompatActivity() {
 
                         login.isEnabled = true
                         Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
+
+                        //shared preference
+                        val sharedPreference =  getSharedPreferences("PREFERENCE_NAME", Context.MODE_PRIVATE)
+                        var editor = sharedPreference.edit()
+                        editor.putString("islogged_in","true")
+                        editor.commit()
 
                         MainActivity.startActivity(this@LoginActivity)
                     }
